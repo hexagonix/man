@@ -1,0 +1,14 @@
+Utilitario Unix 'free'
+
+O utilitario Unix 'free' e responsavel por exibir informacoes de memoria instalada, reservada e
+em uso do sistema.
+
+Uso do utilitario:
+
+file
+
+Nenhum parametro adicional e necessario.
+
+Para mais informacoes, insira 'free ?' ou 'free --ajuda'.
+
+Hexagonix                               [2.0 05/06/2022]

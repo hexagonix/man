@@ -1,0 +1,16 @@
+Utilitario Unix 'atop'
+
+O utilitario Unix 'atop' e responsavel pela exibicao dos processos em execucao no sistema,
+atraves do nome das imagens em disco. O utilitario tambem exibe informacoes de memoria, informando
+ao usuario a quantidade de memoria em uso por processos do usuario e tambem o total de memoria
+instalada no computador.
+
+Uso do utilitario:
+
+atop
+
+Nenhum parametro adicional e necessario.
+
+Para mais informacoes, insira 'atop ?' ou 'atop --ajuda'.
+
+Hexagonix                               [2.0 05/06/2022]

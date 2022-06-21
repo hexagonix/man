@@ -1,0 +1,25 @@
+Utilitario Unix 'cowsay'
+
+O utilitario Unix 'cowsay' e responsavel por exibir uma mensagem para o usuario de forma
+descontraida. O perfil da entidade pode ser alterado, entre as opcoes disponiveis ou
+instaladas posteriormente. A solicitacao deve ser fornecida como primeiro parametro, antes
+da mensagem. Em caso de ausencia de um parametro de alteracao, a entidade padrao sera exibida.
+O usuario deve declarar frases utilizando o caractere '"' antes e depois da frase, no caso de 
+nao desejar uma alteracao no personagem padrao. Caso contrario, a mensagem pode nao ser exibida
+corretamente.
+
+Entidades disponiveis:
+
+aguaviva andrmda apple astro atet atomo baleia bio bob bugs cactus cactus2 caveira celular 
+cmarinho daemon dragao gato geek hexagon homer lingua mac maze mickey minnie mula mundo panico
+placa polvo r2-d2 robo tux unix windows yoda
+
+Outras entidades podem ser instaladas e utilizadas.
+
+Uso do utilitario:
+
+cowsay <entidade disponivel acima> <mensagem>
+
+Para mais informacoes, insira 'cowsay ?' ou 'cowsay --ajuda'.
+
+Hexagonix                               [2.0 05/06/2022]

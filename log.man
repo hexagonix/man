@@ -1,0 +1,24 @@
+Utilitario Unix 'log'
+
+O utilitario Unix 'log' e responsavel por exibir dados de inicializacao e estado do Kernel
+Hexagon(R), o coracao por tras do Hexagonix(R). Estes dados dizem respeito a informacoes de
+subsistemas, drivers e erros durante a execucao de processos do sistema e do usuario. A exibicao
+de dados pode ser bastante confusa. Este utilitario deve ser utilizado apenas para debug durante
+o desenvolvimento do sistema.
+
+Para mais informacoes, insira 'log ?' ou 'log --ajuda'.
+
+AVISO! Este utilitario nao esta sendo atualizado e em breve sera removido do pacote, assim como
+a API utilizada para seu funcionamento. Utilize um depurador serial para essa funcao, a partir
+da versao 8.50 do Hexagon(R). Apos atualizacoes do sistema, este utilitario pode ainda estar
+disponivel no volume do Hexagonix(R). Prepara-se para que este utilitario nao seja mais
+executado em versoes posteriores (incompativel com Hexagonix H1 R2 ou superior).
+
+Uso do utilitario:
+
+log
+
+Nenhum parametro adicional e necessario.
+Esse utilitario foi marcado para ser removido em futuras atualizacoes.
+
+Hexagonix                               [2.0 05/06/2022]

@@ -1,0 +1,14 @@
+Utilitario Unix 'man'
+
+O utilitario Unix 'man' e responsavel por exibir uma ajuda mais compreensivel a respeito dos
+utilitarios Unix mais comuns disponibilizados juntamente com o sistema.
+
+Uso do utilitario:
+
+man <nome do utilitario>
+
+Nenhum parametro adicional e necessario.
+
+Para mais informacoes, insira 'man ?' ou 'man --ajuda'.
+
+Hexagonix                               [2.0 05/06/2022]

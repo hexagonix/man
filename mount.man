@@ -1,0 +1,23 @@
+Utilitario Unix 'mount'
+
+O utilitario Unix 'mount' e responsavel por realizar a montagem de um dispositivo de bloco na raiz
+do Sistema de Arquivos Virtual, ate o momento. Este utilitario pode ser utilizado para alterar entre
+diferentes volumes formatados com um sistema de arquivos reconhecido e suportado pelo Hexagon(R).
+Lembrando que previlegios de usuario raiz (root) podem ser solicitados para a realizacao de qualquer
+montagem. Futuramente, outros pontos de montagem em diretorios serao suportados pelo sistema.
+
+Na ausencia de parametros, as montagens realizadas sao exibidas, evidenciando o volume, o ponto de
+montagem e tambem o sistema de arquivos utilizado pelo volume.
+
+Uso do utilitario:
+
+mount <volume> /
+
+Exemplo de uso:
+
+mount hd0 /
+Realiza a montagem do volume hd0 no diretorio raiz do sistema.
+
+Para mais informacoes, insira 'mount ?' ou 'mount --ajuda'.
+
+Hexagonix                               [2.0 05/06/2022]

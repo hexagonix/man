@@ -1,0 +1,19 @@
+Utilitario Unix 'login'
+
+O utilitario Unix 'login' e responsavel por autenticar e validar o acesso de um usuario previamente
+cadastrado, com o auxilio de um registro com os dados de usuarios e grupos disponiveis para login.
+Alem disso, ele pode ler parametros de configuracao, como a cor do tema a ser utilizado para a 
+sessao.
+Existem dois temas: claro e escuro. O padrao, escuro, e selecionado automaticamente caso uma 
+solicitacao de modo claro nao seja encontrada, em "/usuario.unx".
+
+Uso do utilitario:
+
+login
+
+Nenhum parametro adicional e necessario.
+O nome do usuario e senha ja e solicitado no contexto de execucao do utilitario.
+
+Para mais informacoes, insira 'login ?' ou 'login --ajuda'.
+
+Hexagonix                               [2.0 05/06/2022]

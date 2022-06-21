@@ -1,0 +1,20 @@
+Utilitario Unix 'whaomi'
+
+O utilitario Unix 'whoami' e responsavel pela exibicao de informacoes do usuario atual do sistema
+que realizou login a partir do utilitario especifico.
+Para tanto, o utilitario pode receber parametros, com o objetivo de exibir informacoes especificas.
+
+Uso do utilitario:
+
+whoami <parametro>
+
+Um parametro adicional pode ser fornecido, sendo eles:
+
+ -u: Exibe apenas o nome do usuario registrado.
+ -t: Exibe o nome, UID e se disponivel, o grupo do usuario registrado.
+
+Na ausencia de parametros, a opcao '-u' sera selecionada automaticamente.
+
+Para mais informacoes, insira 'whoami ?' ou 'whoami --ajuda'.
+
+Hexagonix                               [2.0 05/06/2022]

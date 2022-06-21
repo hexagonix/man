@@ -1,0 +1,17 @@
+Utilitario Unix 'rm'
+
+O utilitario Unix 'rm' e responsavel por solicitar ao sistema a remocao definitiva de um arquivo
+presente no sistema de arquivos no disco montado.
+Lembrando que previlegios de usuario raiz (root) podem ser solicitados para a operacao de
+exclusao. Um arquivo removido pode, ate certo ponto e na teoria, ser recuperado por softwares
+especificos, que podem resultar em custos e alta probabilidade de falhas e perda de dados.
+
+Uso do utilitario:
+
+rm <nome de arquivo>
+
+Nenhum parametro adicional e necessario.
+
+Para mais informacoes, insira 'rm ?' ou 'rm --ajuda'.
+
+Hexagonix                               [2.0 05/06/2022]

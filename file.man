@@ -1,0 +1,19 @@
+Utilitario Unix 'file'
+
+O utilitario Unix 'file' e responsavel por exibir informacoes a respeito de um arquivo fornecido
+como parametro. O utilitario pode identificar o conteudo do arquivo pela sua extensao ou ainda
+lendo parte do seu conteudo, como cabecalho de imagens binarias HAPP ou modulos HBoot, alem de 
+outros arquivos. O utilitario checa inicialmente a identidade buscando uma serie de cabecalhos
+no interior do arquivo. Caso nenhuma assinatura conhecida seja encontrada, ele infere o tipo de
+arquivo pela extensao. O conteudo do arquivo nao e todo analisado, apenas os primeiros bytes que 
+possam conter uma assinatura de arquivo.
+
+Uso do utilitario:
+
+file <nome do arquivo>
+
+Nenhum parametro adicional e necessario.
+
+Para mais informacoes, insira 'file ?' ou 'file --ajuda'.
+
+Hexagonix                               [2.0 05/06/2022]

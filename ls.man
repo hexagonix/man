@@ -1,0 +1,22 @@
+Utilitario Unix 'ls'
+
+O utilitario Unix 'ls' e responsavel pela exibicao, em uma lista classificada, dos arquivos
+presentes no diretorio raiz de um disco montado.
+
+Os arquivos sao classificados quanto ao tipo. 
+
+Uso do utilitario:
+
+ls <parametro> <nome de arquivo>
+
+Um parametro adicional pode ser fornecido, sendo eles:
+
+ -a: Exibe arquivos ocultos disponiveis no volume atual, quando disponiveis e permitido.
+     Aviso! Alguns arquivos do sistema podem nao ser exibidos na lista, mesmo quando o
+     parametro for fornecido. Estao incluidos arquivos que, se editados, podem impedir o 
+     funcionamento do sistema.
+ <nome de arquivo>: Solicita a busca por um arquivo em especifico.
+
+Para mais informacoes, insira 'ls ?' ou 'ls --ajuda'.      
+
+Hexagonix                               [2.0 05/06/2022]

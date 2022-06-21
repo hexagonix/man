@@ -1,0 +1,33 @@
+Utilitario Unix 'uname'
+
+O utilitario Unix 'uname' e responsavel pela exibicao de informacoes do sistema, exibindo
+informacoes do Kernel Hexagon(R) e tambem do Hexagonix(R).
+Para tanto, o utilitario pode receber parametros, com o objetivo de exibir informacoes especificas
+para o usuario. Estes parametros sao:
+
+ -a: Exibe todas as informacoes possiveis do sistema, do Kernel e da maquina.
+ -s: Nome do kernel em execucao.
+ -n: Exibe o nome de host da maquina executando o sistema.
+ -r: Lancamento do kernel em execucao.
+ -v: Versao do kernel em execucao.
+ -m: Tipo de maquina.
+ -p: Arquitetura do processador do sistema.
+ -i: Plataforma de hardware do sistema.
+ -o: Nome do sistema operacional em execucao.
+
+Na ausencia de parametros, a opcao '-s' sera selecionada automaticamente.
+
+Exemplo de saida do utilitario para esse parametro (-a):
+
+Hexagonix Hexagonix-PC Hexagon(R) versao 8.58b i386 Hexagonix
+
+Temos, por ordem (separado por espaco), as informacoes abaixo:
+
+Plataforma | Hostname | Kernel e versao | Arquitetura | Nome do Sistema Operacional
+
+Para mais informacoes, insira 'uname ?' ou 'uname --ajuda'. 
+
+Voce tambem pode utilizar 'arch' e 'hostname' para obter essas informacoes.
+Utilize 'man arch' ou 'man hostname' para mais informacoes.
+
+Hexagonix                               [2.0 05/06/2022]

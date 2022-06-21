@@ -1,0 +1,15 @@
+Daemon/servico 'logind'
+
+Logind e um servico que faz parte do sistema de login do Hexagonix a partir da versao H1. Ele e
+responsavel por obter, configurar e definir alguns parametros durante o inicio da sessao de um
+usuario. Esse servico e solicitado pelo utilitario Unix 'login' e nao deve ser inicializado de 
+forma direta. 
+
+O servico checa algumas credenciais, verifica temas de cor e define caracteristicas de console de
+acordo com o usuario que esta indo iniciar a sessao. 
+
+AVISO: este daemon/servico nao fornece ajuda utilizando o comando 'logind ?'.
+
+Nenhum parametro adicional e necessario.
+
+Hexagonix                               [2.0 05/06/2022]

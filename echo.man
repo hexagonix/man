@@ -1,0 +1,12 @@
+Utilitario Unix 'echo'
+
+O utilitario Unix 'echo' e responsavel por exibir determinado conteudo fornecido pelo usuario no
+console padrao do sistema.
+
+Uso do utilitario:
+
+file <mensagem>
+
+Para mais informacoes, insira 'echo ?' ou 'echo --ajuda'.
+
+Hexagonix                               [2.0 05/06/2022]

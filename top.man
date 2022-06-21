@@ -1,0 +1,16 @@
+Utilitario Unix 'top'
+
+O utilitario Unix 'top' e responsavel pela exibicao dos processos em execucao no sistema,
+atraves do nome das imagens em disco. O utilitario tambem exibe informacoes de memoria, informando
+ao usuario a quantidade de memoria em uso por processos do usuario e tambem o total de memoria
+instalada no computador.
+
+Uso do utilitario:
+
+top
+
+Normalmente, as fontes apresentam a extensao '.fnt'.
+
+Para mais informacoes, insira 'top ?' ou 'top --ajuda'.
+
+Hexagonix                               [2.0 05/06/2022]

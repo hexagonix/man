@@ -1,0 +1,16 @@
+Utilitario Unix 'hash'
+
+O utilitario Unix 'hash' se aproxima mais de um shell Unix-like. Ele nao se importa com extensao
+de arquivos, mas, para aqueles que apresentam alguma extensao, ela deve ser fornecida.
+'hash' sera o novo shell do Andromeda(R), recebendo novas funcoes de
+acordo com a evolucao do sistema.
+
+Uso do utilitario:
+
+hash
+
+Nenhum parametro adicional e necessario.
+
+Para mais informacoes, insira 'hash ?' ou 'hash --ajuda'.
+
+Hexagonix                               [2.0 05/06/2022]

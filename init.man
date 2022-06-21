@@ -1,0 +1,20 @@
+Utilitario Unix 'init'
+
+O utilitario Unix 'init' e responsavel pela inicializacao do Sistema Operacional Hexagonix(R).
+Ao ser iniciado, realiza a configuracao de uma serie de ambientes do sistema, iniciando tambem
+os servicos e o utilitario especificado em "/init.unx".
+
+Ao ser solicitado pelo Hexagon, com PID 1, realiza as atividades descritas anteriormente.
+Entretanto, caso seja chamado pelo usuario, apos uma inicializacao ja bem sucedida onde recebe
+PID diferente de 1, apenas termina sua execucao.
+
+AVISO: este utilitario nao fornece ajuda utilizando o comando 'init ?'.
+
+Uso do utilitario:
+
+init
+
+Nenhum parametro adicional e necessario.
+Esse utilitario nao apresenta saida ao usuario.
+
+Hexagonix                               [2.0 05/06/2022]

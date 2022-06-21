@@ -1,0 +1,28 @@
+Arquivos de configuracao do ambiente Unix
+
+O ambiente Unix do Hexagonix(1) apresenta uma serie de arquivos de configuracao ou de dados, que 
+podem ser facilmente localizados no disco pela extensao .unx, indicando sua natureza. Esses 
+arquivos servem de banco de dados para utilitarios do ambiente Unix, bem como podem ser utilizados
+para configurar o comportament geral do sistema. Esses arquivos tambem podem ser utilizados para 
+expor aos usuarios informacoes relevantes do sistema, como versao, edicao, estado e etc. Alguns 
+arquivos sao importantes para o funcionamento do sistema, como:
+
+- INIT.UNX: arquivo de configuracao de 'init.app'. Utilizado para descrever os servicoes que devem
+ser inicializados em cada inicializacao do sistema. Normalmente, nao deve ser alterado. 
+Recomenda-se que qualquer comentario deva estar apos o caractere #.
+- USUARIO.UNX: contem o banco de dados de usuarios e seus dados relacionados. Esse arquivo pode ser
+utilizado pelos utilitarios 'login.app' e 'su.app', bem como outros que utilizem rotinas de
+autenticacao. Recomenda-se que qualquer comentario deva estar apos o caractere #.
+- HOST.UNX: arquivo que contem o nome de host da maquina. Este arquivo pode ser alterado livremente
+pelos usuarios. Para isso, basta remover o arquivo original e criar um novo com o mesmo nome, 
+contendo apenas um nome terminado com um espaco em branco. Comentarios nao devem/podem ser 
+adicionados.
+- HEXGNIX.UNX: Este arquivo expoe ao usuario informacoes relevantes do sistema, como versao, 
+subversao, codigo de construcao, estado do software, nome do lancamento e etc. Comentarios devem
+estar apos o caractere #.
+
+Mais do sistema em:
+
+(1) 'man sistema': mais sobre o Hexagonix(R).
+
+Hexagonix                               [2.0 05/06/2022]
