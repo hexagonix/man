@@ -1,5 +1,11 @@
-# Arquivos estáticos de distribuição
+# Português
+
+## Manuais de utilitários Unix-like do Hexagonix
 
 Este repositório contém os manuais de utilitários do Hexagonix.
 
-Versão deste arquivo: 1.0
+# English
+
+## Hexagonix Unix-like utility manuals
+
+This repository contains the Hexagonix utility manuals.
