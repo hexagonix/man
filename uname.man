@@ -19,7 +19,7 @@ Na ausencia de parametros, a opcao '-s' sera selecionada automaticamente.
 
 Exemplo de saida do utilitario para esse parametro (-a):
 
-Hexagonix Hexagonix-PC Hexagon(R) versao 8.58b i386 Hexagonix
+Hexagonix Hexagonix-PC Hexagon(R) versao 1.1 i386 Hexagonix
 
 Temos, por ordem (separado por espaco), as informacoes abaixo:
 
@@ -30,4 +30,4 @@ Para mais informacoes, insira 'uname ?' ou 'uname --ajuda'.
 Voce tambem pode utilizar 'arch' e 'hostname' para obter essas informacoes.
 Utilize 'man arch' ou 'man hostname' para mais informacoes.
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                               [2.0 15/07/2022]
