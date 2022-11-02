@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/hexagonix/Doc/blob/main/Img/Hexagonix.png" width="150" height="150">
+<img src="https://github.com/hexagonix/Doc/blob/main/Img/banner.png">
 </p>
 
 <div align="center">
@@ -15,16 +15,16 @@
 
 </div>
 
-<hr>
+<!-- Vai funcionar como <hr> -->
 
-# Português
+<img src="https://github.com/hexagonix/Doc/blob/main/Img/hr.png" width="100%" height="2px" />
 
-## Manuais de utilitários Unix-like do Hexagonix
+# Arquivos de manual/manual files
+
+# 🇧🇷 Português (Brasil)
 
 Este repositório contém os manuais de utilitários do Hexagonix.
 
-# English
-
-## Hexagonix Unix-like utility manuals
+# 🇬🇧 English
 
 This repository contains the Hexagonix utility manuals.
