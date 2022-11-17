@@ -1,6 +1,6 @@
 Utilitario Unix 'log'
 
-O utilitario Unix 'log' e responsavel por exibir dados de inicializacao e estado do Kernel
+O utilitario Unix 'log' e responsavel por exibir dados de inicializacao e estado do kernel
 Hexagon(R), o coracao por tras do Hexagonix(R). Estes dados dizem respeito a informacoes de
 subsistemas, drivers e erros durante a execucao de processos do sistema e do usuario. A exibicao
 de dados pode ser bastante confusa. Este utilitario deve ser utilizado apenas para debug durante

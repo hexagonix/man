@@ -1,13 +1,13 @@
 Utilitario Unix 'energia'
 
 O utilitario Unix 'energia' e responsavel pelo controle do estado do computador, sendo 
-utilizado para permitir o desligamento, reinicio ou suspensao do computador. Ele pode
+utilizado para permitir o desligamento, reinicio ou suspensao do dispositivo. Ele pode
 finalizar os processos em execucao, fechar arquivos e dispositivos abertos e solicitar
 o desligamento ou reinicio da maquina.
 
 Uso do utilitario:
 
-file <opcao de desligamento>
+energia <opcao de desligamento>
 
 Um parametro adicional e necessario, sendo eles:
 
@@ -18,4 +18,4 @@ Lembre-se que a partir da entrada do parametro, a acao e iniciada imediatamente.
 
 Para mais informacoes, insira 'energia ?' ou 'energia --ajuda'.
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                               [2.0 17/11/2022]
