@@ -1,11 +1,11 @@
 Utilitario Unix 'uname'
 
 O utilitario Unix 'uname' e responsavel pela exibicao de informacoes do sistema, exibindo
-informacoes do Kernel Hexagon(R) e tambem do Hexagonix(R).
+informacoes do kernel Hexagon(R) e tambem do Hexagonix(R).
 Para tanto, o utilitario pode receber parametros, com o objetivo de exibir informacoes especificas
 para o usuario. Estes parametros sao:
 
- -a: Exibe todas as informacoes possiveis do sistema, do Kernel e da maquina.
+ -a: Exibe todas as informacoes possiveis do sistema, do kernel e da maquina.
  -s: Nome do kernel em execucao.
  -n: Exibe o nome de host da maquina executando o sistema.
  -r: Lancamento do kernel em execucao.

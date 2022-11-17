@@ -1,8 +1,7 @@
 Utilitario Unix 'cat'
 
 O utilitario Unix 'cat' e responsavel por concatenar sequencias para a saida padrao.
-Desta forma, pode ser utilizado para visualizar o conteudo de arquivos presentes no disco. Futuras
-dispositivos, alem do suporte a arquivos ja disponivel.
+Desta forma, pode ser utilizado para visualizar o conteudo de arquivos presentes no volume.
 
 Uso do utilitario:
 
@@ -12,4 +11,4 @@ Nenhum parametro adicional e necessario.
 
 Para mais informacoes, insira 'cat ?' ou 'cat --ajuda'.
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                               [2.1 17/11/2022]

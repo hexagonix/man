@@ -2,7 +2,7 @@ Utilitario Unix 'hash'
 
 O utilitario Unix 'hash' se aproxima mais de um shell Unix-like. Ele nao se importa com extensao
 de arquivos, mas, para aqueles que apresentam alguma extensao, ela deve ser fornecida.
-'hash' sera o novo shell do Andromeda(R), recebendo novas funcoes de
+'hash' sera o novo shell do Hexagonix(R), recebendo novas funcoes de
 acordo com a evolucao do sistema.
 
 Uso do utilitario:

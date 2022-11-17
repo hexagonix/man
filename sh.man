@@ -1,9 +1,9 @@
 Utilitario Unix 'sh'
 
-O Shell Unix sh e o Shell padrao para o usuario raiz (root).
-Diferentemente do Shell padrao do Hexagonix(R), ASH, o Shell Unix 'sh' se aproxima mais de um
+O Shell Unix sh e o shell padrao para o usuario raiz (root).
+Diferentemente do novo shell do Hexagonix(R), ASH, o shell Unix 'sh' se aproxima mais de um
 ambiente Unix familiar, tornando mais facil e aconchegante o uso do mesmo por usuarios
-adaptados com tal interface. Este Shell apresenta apenas comandos internos essenciais para a
+adaptados com tal interface. Este shell apresenta apenas comandos internos essenciais para a
 realizacao de suas atividades, delegando todas as outras funcoes para os utilitarios que constituem
 o ambiente Unix do Hexagonix(R).
 Outros usuarios tambem podem fazer uso do Shell Unix sh, tanto como padrao quando para aquela
@@ -18,4 +18,4 @@ Nenhum parametro adicional e necessario.
 
 Para mais informacoes, insira 'sh ?' ou 'sh --ajuda'.
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                               [2.1 17/11/2022]
