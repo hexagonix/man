@@ -1,0 +1,20 @@
+Utilitario Unix 'htop'
+
+O utilitario Unix 'htop' e responsavel pela exibicao dos processos em execucao no sistema,
+atraves do nome das imagens em disco. O utilitario tambem exibe informacoes de memoria, informando
+ao usuario a quantidade de memoria em uso por processos do usuario e tambem o total de memoria
+instalada no computador.
+
+Uso do utilitario:
+
+htop
+
+Nenhum parametro adicional e necessario.
+
+Para mais informacoes, insira 'htop ?' ou 'htop --ajuda'.
+
+ATUALIZACAO:
+
+atop foi renomeado para htop no Hexagonix H2.
+
+Hexagonix                               [2.1 17/11/2022]
