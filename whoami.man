@@ -4,7 +4,7 @@ O utilitario Unix 'whoami' e responsavel pela exibicao de informacoes do usuario
 que realizou login a partir do utilitario especifico.
 Para tanto, o utilitario pode receber parametros, com o objetivo de exibir informacoes especificas.
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 whoami <parametro>
 
@@ -16,5 +16,13 @@ Um parametro adicional pode ser fornecido, sendo eles:
 Na ausencia de parametros, a opcao '-u' sera selecionada automaticamente.
 
 Para mais informacoes, insira 'whoami ?' ou 'whoami --ajuda'.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]

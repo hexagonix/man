@@ -5,12 +5,20 @@ de arquivos, mas, para aqueles que apresentam alguma extensao, ela deve ser forn
 'hash' sera o novo shell do Hexagonix(R), recebendo novas funcoes de
 acordo com a evolucao do sistema.
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 hash
 
 Nenhum parametro adicional e necessario.
 
 Para mais informacoes, insira 'hash ?' ou 'hash --ajuda'.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]

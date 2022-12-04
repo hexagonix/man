@@ -3,12 +3,20 @@ Utilitario Unix 'arch'
 O utilitario Unix 'arch' e responsavel por exibir a arquitetura do dispositivo, Hexagon(R) e
 utilitarios e nao aceita argumentos. 
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 arch
 
 Nenhum parametro adicional e necessario.
 
 Para mais informacoes, insira 'arch ?' ou 'arch --ajuda'. 
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]

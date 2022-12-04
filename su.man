@@ -4,12 +4,20 @@ O utilitario Unix 'su' e responsavel pela troca de usuarios no ambiente Unix.
 Ele pode ser utilizado para alterar, por exemplo, para o usuario raiz (root), requerido para
 diversas operacoes que necessitem de altos previlegios para a realizacao.
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 su <usuario>
 
 Normalmente, as fontes apresentam a extensao '.fnt'.
 
 Para mais informacoes, insira 'su ?' ou 'su --ajuda'.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]

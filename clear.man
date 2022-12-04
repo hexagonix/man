@@ -5,12 +5,20 @@ Desta forma, pode ser utilizado para limpar a saida de video do console principa
 de outros consoles virtuais. Normalmente, apenas o console principal (vd0) e o primeiro console
 virtual (vd1) sao afetados por este utilitario.
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 clear
 
 Nenhum parametro adicional e necessario.
 
 Para mais informacoes, insira 'clear ?' ou 'clear --ajuda'.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]

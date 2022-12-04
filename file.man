@@ -8,12 +8,20 @@ no interior do arquivo. Caso nenhuma assinatura conhecida seja encontrada, ele i
 arquivo pela extensao. O conteudo do arquivo nao e todo analisado, apenas os primeiros bytes que 
 possam conter uma assinatura de arquivo.
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 file <nome do arquivo>
 
 Nenhum parametro adicional e necessario.
 
 Para mais informacoes, insira 'file ?' ou 'file --ajuda'.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]

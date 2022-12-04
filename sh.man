@@ -10,12 +10,20 @@ Outros usuarios tambem podem fazer uso do Shell Unix sh, tanto como padrao quand
 sessao. Para tornar este Shell o padrao, modifique (apenas caso saiba o que esta fazendo) o arquivo
 de configuracao de usuarios do ambiente Unix "/usuario.unx", presente na raiz do disco do sistema.
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 sh
 
 Nenhum parametro adicional e necessario.
 
 Para mais informacoes, insira 'sh ?' ou 'sh --ajuda'.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.1 17/11/2022]

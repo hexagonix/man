@@ -9,7 +9,7 @@ montagem. Futuramente, outros pontos de montagem em diretorios serao suportados 
 Na ausencia de parametros, as montagens realizadas sao exibidas, evidenciando o volume, o ponto de
 montagem e tambem o sistema de arquivos utilizado pelo volume.
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 mount <volume> /
 
@@ -19,5 +19,13 @@ mount hd0 /
 Realiza a montagem do volume hd0 no diretorio raiz do sistema.
 
 Para mais informacoes, insira 'mount ?' ou 'mount --ajuda'.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]

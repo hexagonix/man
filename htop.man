@@ -5,7 +5,7 @@ atraves do nome das imagens em disco. O utilitario tambem exibe informacoes de m
 ao usuario a quantidade de memoria em uso por processos do usuario e tambem o total de memoria
 instalada no computador.
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 htop
 
@@ -16,5 +16,13 @@ Para mais informacoes, insira 'htop ?' ou 'htop --ajuda'.
 ATUALIZACAO:
 
 atop foi renomeado para htop no Hexagonix H2.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.1 17/11/2022]

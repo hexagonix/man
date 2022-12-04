@@ -14,11 +14,19 @@ da versao 8.50 do Hexagon(R). Apos atualizacoes do sistema, este utilitario pode
 disponivel no volume do Hexagonix(R). Prepara-se para que este utilitario nao seja mais
 executado em versoes posteriores (incompativel com Hexagonix H1 R2 ou superior).
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 log
 
 Nenhum parametro adicional e necessario.
 Esse utilitario foi marcado para ser removido em futuras atualizacoes.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]

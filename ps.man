@@ -3,7 +3,7 @@ Utilitario Unix 'ps'
 O utilitario Unix 'ps' e responsavel por exibir o numero de processos em execucao ou que ainda
 estejam na pilha de execucao do sistema.
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 ps <parametro>
 
@@ -14,5 +14,13 @@ Um parametro adicional pode ser fornecido, sendo eles:
  -o: Exibe o numero de processos na fila de execucao.
 
 Para mais informacoes, insira 'ps ?' ou 'ps --ajuda'.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]
