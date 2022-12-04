@@ -5,7 +5,7 @@ presentes no diretorio raiz de um disco montado.
 
 Os arquivos sao classificados quanto ao tipo. 
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 ls <parametro> <nome de arquivo>
 
@@ -18,5 +18,13 @@ Um parametro adicional pode ser fornecido, sendo eles:
  <nome de arquivo>: Solicita a busca por um arquivo em especifico.
 
 Para mais informacoes, insira 'ls ?' ou 'ls --ajuda'.      
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]

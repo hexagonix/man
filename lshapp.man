@@ -5,12 +5,20 @@ executavel em disco. As informacoes sao recuperadas da imagem e exibidas, como a
 de destino da imagem, a versao minima do Hexagon(R) necessaria a execucao e ponto de entrada
 do codigo executavel contido na imagem, bem como tipo de imagem HAPP executavel.
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 lshapp <nome de arquivo>
 
 Nenhum parametro adicional e necessario.
 
 Para mais informacoes, insira 'lshapp ?' ou 'lshapp --ajuda'.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]

@@ -5,7 +5,7 @@ utilizado para permitir o desligamento, reinicio ou suspensao do dispositivo. El
 finalizar os processos em execucao, fechar arquivos e dispositivos abertos e solicitar
 o desligamento ou reinicio da maquina.
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 energia <opcao de desligamento>
 
@@ -17,5 +17,13 @@ Um parametro adicional e necessario, sendo eles:
 Lembre-se que a partir da entrada do parametro, a acao e iniciada imediatamente.
 
 Para mais informacoes, insira 'energia ?' ou 'energia --ajuda'.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 17/11/2022]

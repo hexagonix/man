@@ -16,10 +16,18 @@ placa polvo r2-d2 robo tux unix windows yoda
 
 Outras entidades podem ser instaladas e utilizadas.
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 cowsay <entidade disponivel acima> <mensagem>
 
 Para mais informacoes, insira 'cowsay ?' ou 'cowsay --ajuda'.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]

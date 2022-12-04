@@ -5,10 +5,18 @@ determinado pelo usuario. Desta forma, exige dois parametros.
 Lembrando que alguns arquivos do sistema nao podem ser alterados e o uso deste utilitario pode
 utilitario pode necessitar previlegios de usuario raiz (root).
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 cp <nome do arquivo fonte> <nome do arquivo de destino>
 
 Para mais informacoes, insira 'cp ?' ou 'cp --ajuda'.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]

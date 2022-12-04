@@ -3,12 +3,20 @@ Utilitario Unix 'date'
 O utilitario Unix 'date' e responsavel por exibir informacoes de data e hora obtidas do relogio em
 tempo real do sistema.
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 date
 
 Nenhum parametro adicional e necessario.
 
 Para mais informacoes, insira 'date ?' ou 'date --ajuda'.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]

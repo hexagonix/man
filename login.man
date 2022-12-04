@@ -3,7 +3,7 @@ Utilitario Unix 'login'
 O utilitario Unix 'login' e responsavel por autenticar e validar o acesso de um usuario previamente
 cadastrado, com o auxilio de um registro com os dados de usuarios e grupos disponiveis para login.
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 login
 
@@ -11,5 +11,13 @@ Nenhum parametro adicional e necessario.
 O nome do usuario e senha ja e solicitado no contexto de execucao do utilitario.
 
 Para mais informacoes, insira 'login ?' ou 'login --ajuda'.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [3.0 17/11/2022]

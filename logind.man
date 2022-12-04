@@ -16,4 +16,12 @@ AVISO: este daemon/servico nao fornece ajuda utilizando o comando 'logind ?'.
 
 Nenhum parametro adicional e necessario.
 
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
+
 Hexagonix                               [3.0 17/11/2022]

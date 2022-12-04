@@ -4,12 +4,20 @@ O utilitario Unix 'hostname' e responsavel pela exibicao do nome de host do disp
 nao aceita argumentos. O nome de host pode ser alterado ao excluir e criar um novo arquivo
 'host.unx' na raiz do volume Hexagon(R).
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 hostname
 
 Nenhum parametro adicional e necessario.
 
 Para mais informacoes, insira 'hostname ?' ou 'hostname --ajuda'. 
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]

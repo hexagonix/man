@@ -10,11 +10,19 @@ PID diferente de 1, apenas termina sua execucao.
 
 AVISO: este utilitario nao fornece ajuda utilizando o comando 'init ?'.
 
-Uso do utilitario:
+USO DO UTILITARIO:
 
 init
 
 Nenhum parametro adicional e necessario.
 Esse utilitario nao apresenta saida ao usuario.
+
+HISTORIA
+
+Esse comando apareceu no Hexagonix H1 (2016-2021).
+
+AUTOR
+
+Felipe Miguel Nery Lunkes
 
 Hexagonix                               [2.0 05/06/2022]
