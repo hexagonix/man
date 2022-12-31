@@ -1,13 +1,13 @@
-Utilitario Unix 'energia'
+Utilitario Unix 'shutdown'
 
-O utilitario Unix 'energia' e responsavel pelo controle do estado do computador, sendo 
+O utilitario Unix 'shutdown' e responsavel pelo controle do estado do computador, sendo 
 utilizado para permitir o desligamento, reinicio ou suspensao do dispositivo. Ele pode
 finalizar os processos em execucao, fechar arquivos e dispositivos abertos e solicitar
 o desligamento ou reinicio da maquina.
 
 USO DO UTILITARIO:
 
-energia <opcao de desligamento>
+shutdown <opcao de desligamento>
 
 Um parametro adicional e necessario, sendo eles:
 
@@ -16,14 +16,15 @@ Um parametro adicional e necessario, sendo eles:
 
 Lembre-se que a partir da entrada do parametro, a acao e iniciada imediatamente.
 
-Para mais informacoes, insira 'energia ?' ou 'energia --ajuda'.
+Para mais informacoes, insira 'shutdown ?' ou 'shutdown --ajuda'.
 
 HISTORIA
 
 Esse comando apareceu no Hexagonix H1 (2016-2021).
+Comando renomeado de energia para shutdown no Hexagonix H2.
 
 AUTOR
 
 Felipe Miguel Nery Lunkes
 
-Hexagonix                               [2.0 17/11/2022]
+Hexagonix                               [2.0 31/12/2022]
