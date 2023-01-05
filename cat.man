@@ -1,22 +1,22 @@
-Utilitario Unix 'cat'
+Unix utility 'cat'
 
-O utilitario Unix 'cat' e responsavel por concatenar sequencias para a saida padrao.
-Desta forma, pode ser utilizado para visualizar o conteudo de arquivos presentes no volume.
+The Unix utility 'cat' is responsible for concatenating strings to standard output.
+In this way, it can be used to visualize the content of files present in the volume.
 
-USO DO UTILITARIO:
+USAGE:
 
-cat <nome do arquivo>
+cat <file name>
 
-Nenhum parametro adicional e necessario.
+No additional parameters are required.
 
-Para mais informacoes, insira 'cat ?' ou 'cat --ajuda'.
+For more information, enter 'cat ?' or 'cat --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 
-Hexagonix                               [2.1 17/11/2022]
+Hexagonix                           [2.1 17/11/2022]

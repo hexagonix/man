@@ -1,20 +1,20 @@
-Utilitario Unix 'echo'
+Unix utility 'echo'
 
-O utilitario Unix 'echo' e responsavel por exibir determinado conteudo fornecido pelo usuario no
-console padrao do sistema.
+The Unix utility 'echo' is responsible for displaying certain user-supplied content on the system
+default console.
 
-USO DO UTILITARIO:
+USAGE:
 
-file <mensagem>
+echo <message>
 
-Para mais informacoes, insira 'echo ?' ou 'echo --ajuda'.
+For more information, enter 'echo ?' or 'echo --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                           [2.0 05/06/2022]

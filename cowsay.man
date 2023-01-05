@@ -1,33 +1,32 @@
-Utilitario Unix 'cowsay'
+Unix utility 'cowsay'
 
-O utilitario Unix 'cowsay' e responsavel por exibir uma mensagem para o usuario de forma
-descontraida. O perfil da entidade pode ser alterado, entre as opcoes disponiveis ou
-instaladas posteriormente. A solicitacao deve ser fornecida como primeiro parametro, antes
-da mensagem. Em caso de ausencia de um parametro de alteracao, a entidade padrao sera exibida.
-O usuario deve declarar frases utilizando o caractere '"' antes e depois da frase, no caso de 
-nao desejar uma alteracao no personagem padrao. Caso contrario, a mensagem pode nao ser exibida
-corretamente.
+The Unix utility 'cowsay' is responsible for displaying a message to the user in a form relaxed.
+The entity's profile can be changed, among the available options or installed later. The request
+must be provided as the first parameter, before of the message. In case of absence of an alteration
+parameter, the default entity will be displayed.
+The user must declare phrases using the character '"' before and after the phrase, in case of not
+want a change to the default character. Otherwise, the message may not be displayed correctly.
 
-Entidades disponiveis:
+Available entities:
 
 aguaviva andrmda apple astro atet atomo baleia bio bob bugs cactus cactus2 caveira celular 
 cmarinho daemon dragao gato geek hexagon homer lingua mac maze mickey minnie mula mundo panico
 placa polvo r2-d2 robo tux unix windows yoda
 
-Outras entidades podem ser instaladas e utilizadas.
+Other entities can be installed and used.
 
-USO DO UTILITARIO:
+USAGE:
 
-cowsay <entidade disponivel acima> <mensagem>
+cowsay <entity available above> <message>
 
-Para mais informacoes, insira 'cowsay ?' ou 'cowsay --ajuda'.
+For more information, enter 'cowsay ?' or 'cowsay --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                           [2.0 05/06/2022]

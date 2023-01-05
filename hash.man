@@ -1,24 +1,23 @@
-Utilitario Unix 'hash'
+Unix utility 'hash'
 
-O utilitario Unix 'hash' se aproxima mais de um shell Unix-like. Ele nao se importa com extensao
-de arquivos, mas, para aqueles que apresentam alguma extensao, ela deve ser fornecida.
-'hash' sera o novo shell do Hexagonix(R), recebendo novas funcoes de
-acordo com a evolucao do sistema.
+The Unix utility 'hash' is closer to a Unix-like shell. He doesn't care about extension of files,
+but for those that have some extension, it must be provided. 'hash' will be the new Hexagonix(R)
+shell, receiving new functions from according to the evolution of the system.
 
-USO DO UTILITARIO:
+USAGE:
 
 hash
 
-Nenhum parametro adicional e necessario.
+No additional parameters are required.
 
-Para mais informacoes, insira 'hash ?' ou 'hash --ajuda'.
+For more information, enter 'hash ?' or 'hash --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                           [2.0 05/06/2022]

@@ -1,22 +1,21 @@
-Utilitario Unix 'fnt'
+Unix utility 'fnt'
 
-O utilitario Unix 'fnt' pode ser usado para alterar a fonte padrao de exibicao do servidor 
-grafico do sistema.
+The Unix utility 'fnt' can be used to change the server's default display font system graphic.
 
-USO DO UTILITARIO:
+USAGE:
 
-fnt <nome do arquivo que contem a fonte>
+fnt <name of the file containing the font>
 
-Normalmente, as fontes apresentam a extensao '.fnt'.
+Normally, fonts have the '.fnt' extension.
 
-Para mais informacoes, insira 'fnt ?' ou 'fnt --ajuda'. 
+For more information, enter 'fnt ?' or 'fnt --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                           [2.0 05/06/2022]

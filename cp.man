@@ -1,22 +1,22 @@
-Utilitario Unix 'cp'
+Unix utility 'cp'
 
-O utilitario Unix 'cp' e responsavel por realizar a copia de um arquivo fonte em um destino,
-determinado pelo usuario. Desta forma, exige dois parametros.
-Lembrando que alguns arquivos do sistema nao podem ser alterados e o uso deste utilitario pode
-utilitario pode necessitar previlegios de usuario raiz (root).
+The Unix utility 'cp' is responsible for copying a source file to a destination, determined by the
+user. This way requires two parameters.
+Remembering that some system files cannot be changed and the use of this utility can utility may 
+need root user privileges.
 
-USO DO UTILITARIO:
+USAGE:
 
-cp <nome do arquivo fonte> <nome do arquivo de destino>
+cp <source file name> <destination file name>
 
-Para mais informacoes, insira 'cp ?' ou 'cp --ajuda'.
+For more information, enter 'cp ?' or 'cp --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                           [2.0 05/06/2022]

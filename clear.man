@@ -1,24 +1,24 @@
-Utilitario Unix 'clear'
+Unix utility 'clear'
 
-O utilitario Unix 'clear' e responsavel por limpar os consoles vd0 e vd1 (ttys).
-Desta forma, pode ser utilizado para limpar a saida de video do console principal, bem como
-de outros consoles virtuais. Normalmente, apenas o console principal (vd0) e o primeiro console
-virtual (vd1) sao afetados por este utilitario.
+The Unix utility 'clear' is responsible for clearing the vd0 and vd1 consoles (ttys).
+In this way, it can be used to clean up the main console's video output, as well as from other 
+virtual consoles. Usually only the main console (vd0) and the first console virtual (vd1) are 
+affected by this utility.
 
-USO DO UTILITARIO:
+USAGE:
 
 clear
 
-Nenhum parametro adicional e necessario.
+No additional parameters are required.
 
-Para mais informacoes, insira 'clear ?' ou 'clear --ajuda'.
+For more information, enter 'clear ?' or 'clear --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                           [2.0 05/06/2022]

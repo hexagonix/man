@@ -1,23 +1,23 @@
-Utilitario Unix 'hostname'
+Unix utility 'hostname'
 
-O utilitario Unix 'hostname' e responsavel pela exibicao do nome de host do dispositivo, e
-nao aceita argumentos. O nome de host pode ser alterado ao excluir e criar um novo arquivo
-'host.unx' na raiz do volume Hexagon(R).
+The Unix utility 'hostname' is responsible for displaying the hostname of the device, and does not
+accept arguments. Hostname can be changed when deleting and creating a new file 'host.unx' at the
+root of the Hexagon(R) volume.
 
-USO DO UTILITARIO:
+USAGE:
 
 hostname
 
-Nenhum parametro adicional e necessario.
+No additional parameters are required.
 
-Para mais informacoes, insira 'hostname ?' ou 'hostname --ajuda'. 
+For more information, enter 'hostname ?' or 'hostname --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                           [2.0 05/06/2022]

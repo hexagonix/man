@@ -1,22 +1,21 @@
-Utilitario Unix 'free'
+Unix utility 'free'
 
-O utilitario Unix 'free' e responsavel por exibir informacoes de memoria instalada, reservada e
-em uso do sistema.
+The 'free' Unix utility is responsible for displaying installed, reserved and in use of the system.
 
-USO DO UTILITARIO:
+USAGE:
 
-file
+free
 
-Nenhum parametro adicional e necessario.
+No additional parameters are required.
 
-Para mais informacoes, insira 'free ?' ou 'free --ajuda'.
+For more information, enter 'free ?' or 'free --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                           [2.0 05/06/2022]
