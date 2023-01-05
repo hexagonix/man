@@ -1,28 +1,27 @@
-Utilitario Unix 'sh'
+Unix utility 'sh'
 
-O Shell Unix sh e o shell padrao para o usuario raiz (root).
-Diferentemente do novo shell do Hexagonix(R), ASH, o shell Unix 'sh' se aproxima mais de um
-ambiente Unix familiar, tornando mais facil e aconchegante o uso do mesmo por usuarios
-adaptados com tal interface. Este shell apresenta apenas comandos internos essenciais para a
-realizacao de suas atividades, delegando todas as outras funcoes para os utilitarios que constituem
-o ambiente Unix do Hexagonix(R).
-Outros usuarios tambem podem fazer uso do Shell Unix sh, tanto como padrao quando para aquela
-sessao. Para tornar este Shell o padrao, modifique (apenas caso saiba o que esta fazendo) o arquivo
-de configuracao de usuarios do ambiente Unix "/usuario.unx", presente na raiz do disco do sistema.
+The Unix sh shell is the default shell for the root user. Unlike the new Hexagonix(R) shell, ASH,
+the Unix shell 'sh' is closer to a familiar Unix environment, making it easier and more comfortable
+for users adapted with such interface. This shell features only essential built-in commands for the
+carrying out its activities, delegating all other functions to the utilities that constitute the
+Unix environment of Hexagonix(R).
+Other users can also make use of the Unix sh shell. To make this shell the default, modify (just
+in case you know what you're doing) the configuration file for users of the Unix environment 
+"/usuario.unx", present in the root of the system volume.
 
-USO DO UTILITARIO:
+USAGE:
 
 sh
 
-Nenhum parametro adicional e necessario.
+No additional parameters are required.
 
-Para mais informacoes, insira 'sh ?' ou 'sh --ajuda'.
+For more information, enter 'sh ?' or 'sh --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 

@@ -1,23 +1,24 @@
-Utilitario Unix 'login'
+Unix utility 'login'
 
-O utilitario Unix 'login' e responsavel por autenticar e validar o acesso de um usuario previamente
-cadastrado, com o auxilio de um registro com os dados de usuarios e grupos disponiveis para login.
+The Unix utility 'login' is responsible for authenticating and validating a user's access 
+previously registered, with the help of a record with the data of users and groups available for
+login.
 
-USO DO UTILITARIO:
+USAGE:
 
 login
 
-Nenhum parametro adicional e necessario.
-O nome do usuario e senha ja e solicitado no contexto de execucao do utilitario.
+No additional parameters are required.
+The username and password are already requested in the context of executing the utility.
 
-Para mais informacoes, insira 'login ?' ou 'login --ajuda'.
+For more information, enter 'login ?' or 'login --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 
-Hexagonix                               [3.0 17/11/2022]
+Hexagonix                           [3.0 17/11/2022]

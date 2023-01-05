@@ -1,29 +1,28 @@
-Utilitario Unix 'ls'
+Unix utility 'ls'
 
-O utilitario Unix 'ls' e responsavel pela exibicao, em uma lista classificada, dos arquivos
-presentes no diretorio raiz de um disco montado.
+The Unix utility 'ls' is responsible for displaying, in a sorted list, the files present in the
+root directory of a mounted disk.
 
-Os arquivos sao classificados quanto ao tipo. 
+Files are sorted by type.
 
-USO DO UTILITARIO:
+USAGE:
 
-ls <parametro> <nome de arquivo>
+ls <parameter> <file name>
 
-Um parametro adicional pode ser fornecido, sendo eles:
+An additional parameter can be provided, namely:
 
- -a: Exibe arquivos ocultos disponiveis no volume atual, quando disponiveis e permitido.
-     Aviso! Alguns arquivos do sistema podem nao ser exibidos na lista, mesmo quando o
-     parametro for fornecido. Estao incluidos arquivos que, se editados, podem impedir o 
-     funcionamento do sistema.
- <nome de arquivo>: Solicita a busca por um arquivo em especifico.
+ -a: Display hidden files available on the current volume, when available and allowed.
+     Notice! Some system files may not be displayed in the list even when the parameter is 
+     provided. Included are files that, if edited, may prevent the system functioning.
+ <filename>: Requests to search for a specific file.
 
-Para mais informacoes, insira 'ls ?' ou 'ls --ajuda'.      
+For more information, enter 'ls ?' or 'ls --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 

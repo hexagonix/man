@@ -1,22 +1,22 @@
-Utilitario Unix 'lshmod'
+Unix utility 'lshmod'
 
-O utilitario Unix 'lshmod' e responsavel por exibir informacoes a respeito de uma imagem
-de modulo HBoot ou do proprio HBoot. As informacoes sao recuperadas da imagem e exibidas,
-como a arquitetura de destino da imagem, a versao do modulo e seu nome interno.
+The Unix utility 'lshmod' is responsible for displaying information about an image from HBoot
+module or from HBoot itself. Information is retrieved from the image and displayed, such as the
+image's target architecture, module version, and its internal name.
 
-USO DO UTILITARIO:
+USAGE:
 
-lshmod <nome de arquivo>
+lshmod <filename>
 
-Nenhum parametro adicional e necessario.
+No additional parameters are required.
 
-Para mais informacoes, insira 'lshmod ?' ou 'lshmod --ajuda'.
+For more information, enter 'lshmod ?' or 'lshmod --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 

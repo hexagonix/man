@@ -1,30 +1,31 @@
-Utilitario Unix 'mount'
+Unix 'mount' utility
 
-O utilitario Unix 'mount' e responsavel por realizar a montagem de um dispositivo de bloco na raiz
-do Sistema de Arquivos Virtual, ate o momento. Este utilitario pode ser utilizado para alterar entre
-diferentes volumes formatados com um sistema de arquivos reconhecido e suportado pelo Hexagon(R).
-Lembrando que previlegios de usuario raiz (root) podem ser solicitados para a realizacao de qualquer
-montagem. Futuramente, outros pontos de montagem em diretorios serao suportados pelo sistema.
+The Unix utility 'mount' is responsible for mounting a block device to the root of the Virtual File
+System. This utility can be used to change between different volumes formatted with a file system
+recognized and supported by Hexagon(R).
+Remembering that root user privileges (root) can be requested to carry out any mount. In the future,
+other mount points on directories will be supported by the system.
 
-Na ausencia de parametros, as montagens realizadas sao exibidas, evidenciando o volume, o ponto de
-montagem e tambem o sistema de arquivos utilizado pelo volume.
+In the absence of parameters, the mounts performed are displayed, highlighting the volume, the
+mounting point and also the file system used by the volume.
 
-USO DO UTILITARIO:
+USAGE:
 
 mount <volume> /
 
-Exemplo de uso:
+Example of use:
 
 mount hd0 /
-Realiza a montagem do volume hd0 no diretorio raiz do sistema.
 
-Para mais informacoes, insira 'mount ?' ou 'mount --ajuda'.
+It mounts the volume hd0 in the root directory of the system.
 
-HISTORIA
+For more information, enter 'mount ?' or 'mount --help'.
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+HISTORY
 
-AUTOR
+This command appeared in the Hexagonix H1 (2016-2021).
+
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 

@@ -1,21 +1,21 @@
-Utilitario Unix 'man'
+Unix utility 'man'
 
-O utilitario Unix 'man' e responsavel por exibir uma ajuda mais compreensivel a respeito dos
-utilitarios Unix mais comuns disponibilizados juntamente com o sistema.
+The Unix utility 'man' is responsible for displaying more comprehensive help regarding most common
+Unix utilities shipped with the system.
 
-USO DO UTILITARIO:
+USAGE:
 
-man <nome do utilitario>
+man <utility name>
 
-Nenhum parametro adicional e necessario.
+No additional parameters are required.
 
-Para mais informacoes, insira 'man ?' ou 'man --ajuda'.
+For more information, enter 'man ?' or 'man --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 

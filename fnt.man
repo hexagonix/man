@@ -1,10 +1,10 @@
 Unix utility 'fnt'
 
-The Unix utility 'fnt' can be used to change the server's default display font system graphic.
+The Unix utility 'fnt' can be used to change the default display graphical font.
 
 USAGE:
 
-fnt <name of the file containing the font>
+fnt <name of the file containing the graphic font>
 
 Normally, fonts have the '.fnt' extension.
 

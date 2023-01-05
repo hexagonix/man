@@ -1,23 +1,23 @@
-Utilitario Unix 'lshapp'
+Unix utility 'lshapp'
 
-O utilitario Unix 'lshapp' e responsavel por exibir informacoes a respeito de uma imagem
-executavel em disco. As informacoes sao recuperadas da imagem e exibidas, como a arquitetura
-de destino da imagem, a versao minima do Hexagon(R) necessaria a execucao e ponto de entrada
-do codigo executavel contido na imagem, bem como tipo de imagem HAPP executavel.
+The Unix utility 'lshapp' is responsible for displaying information about an executable image on
+disk. Information is retrieved from the image and displayed, such as architecture image
+destination, the minimum version of Hexagon(R) required to run, and entry point of the executable
+code contained in the image, as well as the executable HAPP image type.
 
-USO DO UTILITARIO:
+USAGE:
 
-lshapp <nome de arquivo>
+lshapp <file name>
 
-Nenhum parametro adicional e necessario.
+No additional parameters are required.
 
-Para mais informacoes, insira 'lshapp ?' ou 'lshapp --ajuda'.
+For more information, enter 'lshapp ?' or 'lshapp --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 

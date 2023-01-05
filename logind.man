@@ -1,26 +1,25 @@
-Daemon/servico 'logind'
+Daemon/service 'logind'
 
-logind e um servico que faz parte do sistema de login do Hexagonix a partir da versao H1. Ele e
-responsavel por obter, configurar e definir alguns parametros durante o inicio da sessao de um
-usuario. Esse servico e solicitado pelo utilitario Unix 'login' e nao deve ser inicializado de 
-forma direta. 
-Alem disso, ele pode ler parametros de configuracao, como a cor do tema a ser utilizado para a 
-sessao.
-Existem dois temas: claro e escuro. O padrao, escuro, e selecionado automaticamente caso uma 
-solicitacao de modo claro nao seja encontrada, em "/usuario.unx".
+logind is a service that is part of the Hexagonix login system as of version H1. It is responsible
+for obtaining, configuring and defining some parameters during the beginning of the session of a 
+user. This service is required by the Unix 'login' utility and must not be started in a direct way.
+In addition, it can read configuration parameters, such as the color of the theme to be used for 
+the session.
+There are two themes: light and dark. The default, dark, is selected automatically if a clear mode
+request is not found, in "/usuario.unx".
 
-O servico checa algumas credenciais, verifica temas de cor e define caracteristicas de console de
-acordo com o usuario que esta indo iniciar a sessao. 
+The service checks some credentials, checks color themes and sets console characteristics according
+to the user who is going to start the session.
 
-AVISO: este daemon/servico nao fornece ajuda utilizando o comando 'logind ?'.
+WARNING: This daemon/service does not provide help using the 'logind ?' command.
 
-Nenhum parametro adicional e necessario.
+No additional parameters are required.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 

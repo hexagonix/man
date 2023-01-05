@@ -1,25 +1,25 @@
-Utilitario Unix 'ps'
+Unix utility 'ps'
 
-O utilitario Unix 'ps' e responsavel por exibir o numero de processos em execucao ou que ainda
-estejam na pilha de execucao do sistema.
+The Unix utility 'ps' is responsible for displaying the number of running processes on the system's
+execution queue.
 
-USO DO UTILITARIO:
+USAGE:
 
-ps <parametro>
+ps <parameter>
 
-Um parametro adicional pode ser fornecido, sendo eles:
+An additional parameter can be provided, namely:
 
- -t: Exibe todas as informacoes possiveis de processos e recursos do sistema.
- -v: Exibe apenas o uso de memoria dos processos em execucao.
- -o: Exibe o numero de processos na fila de execucao.
+ -t: Displays all possible process and system resource information.
+ -v: Display only the memory usage of running processes.
+ -o: Displays the number of processes in the execution queue.
 
-Para mais informacoes, insira 'ps ?' ou 'ps --ajuda'.
+For more information, enter 'ps ?' or 'ps --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 

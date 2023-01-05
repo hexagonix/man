@@ -1,18 +1,18 @@
-Sistema Operacional Hexagonix(R)
+Hexagonix(R) Operating System
 
-Os componentes distribuidos em conjunto e designados como "Sistema Operacional Hexagonix" sao
-licenciados sob licenca BSD-3-Clause. Esse licenciamento e valido apenas para os pacotes de 
-software distribuidos em uma imagem padrao do sistema. A licenca de outros pacotes instalados
-separadamente podem variar. Para ler a licenca completa, com seus direitos e deveres, utilize:
+Components distributed together and designated as "Hexagonix Operating System" are licensed under a
+BSD-3-Clause license. This licensing is valid only for the packages of software distributed in a
+standard system image. The license of other installed packages separately may vary. To read the
+complete license, with its rights and duties, use:
 
 cat license
 
-HISTORIA
+HISTORY
 
-Esse manual apareceu no Hexagonix H2-dev.beta8.
+This manual appeared in Hexagonix H2-dev.beta8.
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 
-Hexagonix                               [1.0 04/12/2022]
+Hexagonix                           [1.0 04/12/2022]
