@@ -1,6 +1,6 @@
 Unix utility 'cowsay'
 
-The Unix utility 'cowsay' is responsible for displaying a message to the user in a form relaxed.
+The Unix utility 'cowsay' is responsible for displaying a message to the user in a relaxed form.
 The entity's profile can be changed, among the available options or installed later. The request
 must be provided as the first parameter, before of the message. In case of absence of an alteration
 parameter, the default entity will be displayed.

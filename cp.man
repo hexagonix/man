@@ -2,8 +2,8 @@ Unix utility 'cp'
 
 The Unix utility 'cp' is responsible for copying a source file to a destination, determined by the
 user. This way requires two parameters.
-Remembering that some system files cannot be changed and the use of this utility can utility may 
-need root user privileges.
+Remembering that some system files cannot be changed and the use of this utility may need root user
+privileges.
 
 USAGE:
 

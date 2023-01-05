@@ -1,7 +1,7 @@
 Unix utility 'date'
 
 The Unix utility 'date' is responsible for displaying date and time information obtained from the 
-clock insystem real time.
+real time clock of the system.
 
 USAGE:
 
