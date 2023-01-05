@@ -1,32 +1,32 @@
-Utilitario Unix 'uname'
+Unix utility 'uname'
 
-O utilitario Unix 'uname' e responsavel pela exibicao de informacoes do sistema, exibindo
-informacoes do kernel Hexagon(R) e tambem do Hexagonix(R).
-Para tanto, o utilitario pode receber parametros, com o objetivo de exibir informacoes especificas
-para o usuario. Estes parametros sao:
+The Unix utility 'uname' is responsible for displaying system information, displaying Hexagon(R)
+and Hexagonix(R) kernel information.
+For this purpose, the utility can receive parameters, in order to display specific information
+for the user. These parameters are:
 
- -a: Exibe todas as informacoes possiveis do sistema, do kernel e da maquina.
- -s: Nome do kernel em execucao.
- -n: Exibe o nome de host da maquina executando o sistema.
- -r: Lancamento do kernel em execucao.
- -v: Versao do kernel em execucao.
- -m: Tipo de maquina.
- -p: Arquitetura do processador do sistema.
- -i: Plataforma de hardware do sistema.
- -o: Nome do sistema operacional em execucao.
+ -a: Display all possible system, kernel, and machine information.
+ -s: Name of the running kernel.
+ -n: Display the hostname of the machine running the system.
+ -r: Launch the running kernel.
+ -v: Running kernel version.
+ -m: Machine type.
+ -p: System processor architecture.
+ -i: System hardware platform.
+ -o: Name of the running operating system.
 
-Na ausencia de parametros, a opcao '-s' sera selecionada automaticamente.
+In the absence of parameters, the '-s' option will be selected automatically.
 
-Para mais informacoes, insira 'uname ?' ou 'uname --ajuda'. 
+For more information, enter 'uname ?' or 'uname --help'.
 
-Voce tambem pode utilizar 'arch' e 'hostname' para obter essas informacoes.
-Utilize 'man arch' ou 'man hostname' para mais informacoes.
+You can also use 'arch' and 'hostname' to get this information.
+Use 'man arch' or 'man hostname' for more information.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 (2016-2021).
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 

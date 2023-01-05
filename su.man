@@ -1,22 +1,20 @@
-Utilitario Unix 'su'
+Unix utility 'su'
 
-O utilitario Unix 'su' e responsavel pela troca de usuarios no ambiente Unix.
-Ele pode ser utilizado para alterar, por exemplo, para o usuario raiz (root), requerido para
-diversas operacoes que necessitem de altos previlegios para a realizacao.
+The Unix utility 'su' is responsible for switching users in the Unix environment.
+It can be used to change, for example, to the root user (root), required for various operations
+that require high privileges.
 
-USO DO UTILITARIO:
+USAGE:
 
-su <usuario>
+su <user>
 
-Normalmente, as fontes apresentam a extensao '.fnt'.
+For more information, enter 'su ?' or 'su --help'.
 
-Para mais informacoes, insira 'su ?' ou 'su --ajuda'.
+HISTORY
 
-HISTORIA
+This command appeared in the Hexagonix H1 (2016-2021).
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
-
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 

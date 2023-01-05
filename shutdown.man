@@ -1,29 +1,28 @@
-Utilitario Unix 'shutdown'
+Unix utility'shutdown'
 
-O utilitario Unix 'shutdown' e responsavel pelo controle do estado do computador, sendo 
-utilizado para permitir o desligamento, reinicio ou suspensao do dispositivo. Ele pode
-finalizar os processos em execucao, fechar arquivos e dispositivos abertos e solicitar
-o desligamento ou reinicio da maquina.
+The Unix utility 'shutdown' is responsible for controlling the state of the computer, being used to
+allow shutdown, restart, or suspend of the device. It can terminate running processes, close open
+files and devices, and request shutdown or restart of the machine.
 
-USO DO UTILITARIO:
+USAGE:
 
-shutdown <opcao de desligamento>
+shutdown <shutdown option>
 
-Um parametro adicional e necessario, sendo eles:
+An additional parameter is required, namely:
 
- -d: prepara o desligamento do computador.
- -r: prepara o reinicio do computador.
+ -d: Prepare to shutdown the computer.
+ -r: prepares to restart the computer.
 
-Lembre-se que a partir da entrada do parametro, a acao e iniciada imediatamente.
+Remember that from the entry of the parameter, the action starts immediately.
 
-Para mais informacoes, insira 'shutdown ?' ou 'shutdown --ajuda'.
+For more information, enter 'shutdown ?' or 'shutdown --help'.
 
-HISTORIA
+HISTORY
 
-Esse comando apareceu no Hexagonix H1 (2016-2021).
-Comando renomeado de energia para shutdown no Hexagonix H2.
+This command appeared in the Hexagonix H1 (2016-2021).
+Command renamed from energia to shutdown on Hexagonix H2.
 
-AUTOR
+AUTHOR
 
 Felipe Miguel Nery Lunkes
 
