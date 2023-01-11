@@ -24,4 +24,8 @@ AUTHOR
 
 Felipe Miguel Nery Lunkes
 
+LICENSE
+
+Licensed under BSD-3-Clause.
+
 Hexagonix                           [2.1 11/17/2022]

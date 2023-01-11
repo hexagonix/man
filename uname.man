@@ -19,9 +19,6 @@ In the absence of parameters, the '-s' option will be selected automatically.
 
 For more information, enter 'uname ?' or 'uname --help'.
 
-You can also use 'arch' and 'hostname' to get this information.
-Use 'man arch' or 'man hostname' for more information.
-
 HISTORY
 
 This command appeared in the Hexagonix H1 (2016-2021).
@@ -29,5 +26,9 @@ This command appeared in the Hexagonix H1 (2016-2021).
 AUTHOR
 
 Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
 
 Hexagonix                               [2.1 04/12/2022]
