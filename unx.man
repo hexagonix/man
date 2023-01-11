@@ -1,28 +1,30 @@
-Arquivos de configuracao do ambiente Unix
+Unix environment configuration files
 
-O ambiente Unix do Hexagonix(1) apresenta uma serie de arquivos de configuracao ou de dados, que 
-podem ser facilmente localizados no disco pela extensao .unx, indicando sua natureza. Esses 
-arquivos servem de banco de dados para utilitarios do ambiente Unix, bem como podem ser utilizados
-para configurar o comportament geral do sistema. Esses arquivos tambem podem ser utilizados para 
-expor aos usuarios informacoes relevantes do sistema, como versao, edicao, estado e etc. Alguns 
-arquivos sao importantes para o funcionamento do sistema, como:
+The Unix environment of Hexagonix(1) presents a series of configuration or data files, which can
+be easily located on disk by the .unx extension, indicating their nature. Those files serve as a
+database for utilities in the Unix environment, as well can be used to configure the general
+behavior of the system. These files can also be used to expose relevant system information to
+users, such as version, edition, status, etc. Some files are important for the functioning of the
+system, such as:
 
-- INIT.UNX: arquivo de configuracao de 'init.app'. Utilizado para descrever os servicoes que devem
-ser inicializados em cada inicializacao do sistema. Normalmente, nao deve ser alterado. 
-Recomenda-se que qualquer comentario deva estar apos o caractere #.
-- USUARIO.UNX: contem o banco de dados de usuarios e seus dados relacionados. Esse arquivo pode ser
-utilizado pelos utilitarios 'login.app' e 'su.app', bem como outros que utilizem rotinas de
-autenticacao. Recomenda-se que qualquer comentario deva estar apos o caractere #.
-- HOST.UNX: arquivo que contem o nome de host da maquina. Este arquivo pode ser alterado livremente
-pelos usuarios. Para isso, basta remover o arquivo original e criar um novo com o mesmo nome, 
-contendo apenas um nome terminado com um espaco em branco. Comentarios nao devem/podem ser 
-adicionados.
-- HEXGNIX.UNX: Este arquivo expoe ao usuario informacoes relevantes do sistema, como versao, 
-subversao, codigo de construcao, estado do software, nome do lancamento e etc. Comentarios devem
-estar apos o caractere #.
+- RC: 'init' configuration file. Used to describe the services that must be initialized on every
+system boot. Normally, it should not be changed. It is recommended that any comments should be
+after the # character.
+- PASSWD: contains the database of users and their related data. This file can be used by the
+'login' and 'su' utilities, as well as others that use login routines for authentication. It is
+recommended that any comments should be after the # character.
+- HOST.UNX: file that contains the hostname of the machine. This file can be changed freely by
+users. To do this, just remove the original file and create a new one with the same name, 
+containing only a name ending with a blank space. Comments cannot be added.
+- HEXGNIX.UNX: This file exposes the user to relevant system information, such as version,
+subversion, build code, software state, release name, etc. Comments must be after the # character.
 
-Mais do sistema em:
+More of the system at:
 
-(1) 'man sistema': mais sobre o Hexagonix(R).
+(1) 'man system': more about the Hexagonix(R).
 
-Hexagonix                               [2.0 05/06/2022]
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                               [3.0 10/01/2023]

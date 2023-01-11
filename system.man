@@ -23,4 +23,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                               [3.0 10/01/2023]
