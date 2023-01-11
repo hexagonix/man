@@ -1,0 +1,26 @@
+Hexagonix(R) Operating System
+
+The Hexagonix(R) Operating System is made up of a series of components that together make your
+computer work. These components are divided into low-level and high-level components. The low-level
+components are the Hexagon Boot (HBoot) boot loader and its modules and the kernel Hexagon,
+responsible for initializing, controlling and making available to the user all devices connected to
+the computer. Hexagon manages the processor and memory, as well provides a foundation on which
+applications and utilities will run. The Hexagon also receives and processes requests from 
+utilities and applications, such as opening files or devices, input and output requests, disk and
+memory operations, as well as on other devices. High-level components start with loading of the
+first process in the user environment, usually the image contained in 'init'. Init reads startup
+settings available in an rc data file and start processes there described. Initialization usually
+ends with loading the 'login' utility, which asks for a username and password and compares it
+against the database in your configuration(1). The next step, after logging in as a user, is
+loading a shell. The appropriate shell for each user is available in the 'login' utility database.
+The default shell is 'sh', but it can also be 'ash', 'hash' or any other configured by the user.
+
+More of the system at:
+
+(1) 'man unx': Hexagonix(R) Unix environment configuration files.
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                               [2.0 05/06/2022]
