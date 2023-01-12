@@ -1,8 +1,8 @@
 Unix utility 'init'
 
 The Unix utility 'init' is responsible for initializing the Hexagonix(R) Operating System.
-When started, it configures a series of system environments, also starting the services and utility
-specified in "/init.unx".
+When started, it configures a series of system environments, also starting the services and
+utilities specified in "/rc".
 
 When requested by Hexagon, with PID 1, it performs the activities described above.
 However, if called by the user, after an already successful initialization where it receives PID
@@ -29,4 +29,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                           [2.0 06/05/2022]
+Hexagonix                           [2.1 12/01/2023]

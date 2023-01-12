@@ -1,7 +1,7 @@
 Unix utility 'echo'
 
 The Unix utility 'echo' is responsible for displaying certain user-supplied content on the system
-default console.
+console.
 
 USAGE:
 
@@ -21,4 +21,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                           [2.0 05/06/2022]
+Hexagonix                           [2.1 12/01/2023]

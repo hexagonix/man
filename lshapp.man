@@ -7,7 +7,7 @@ code contained in the image, as well as the executable HAPP image type.
 
 USAGE:
 
-lshapp <file name>
+lshapp <filename>
 
 No additional parameters are required.
 
@@ -25,4 +25,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                               [2.1 12/01/2023]

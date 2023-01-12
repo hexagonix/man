@@ -5,13 +5,13 @@ for obtaining, configuring and defining some parameters during the beginning of 
 user. This service is required by the Unix 'login' utility and must not be started in a direct way.
 In addition, it can read configuration parameters, such as the color of the theme to be used for 
 the session.
-There are two themes: light and dark. The default, dark, is selected automatically if a clear mode
-request is not found, in "/usuario.unx".
+There are two themes: light and dark. The default (dark) is selected automatically if a theme
+request is not found in "passwd".
 
 The service checks some credentials, checks color themes and sets console characteristics according
 to the user who is going to start the session.
 
-WARNING: This daemon/service does not provide help using the 'logind ?' command.
+WARNING: This daemon/service does not provide help using the 'logind ?' or 'logind --help' command.
 
 No additional parameters are required.
 

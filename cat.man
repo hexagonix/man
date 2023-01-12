@@ -5,7 +5,7 @@ In this way, it can be used to visualize the content of files present in the vol
 
 USAGE:
 
-cat <file name>
+cat <filename>
 
 No additional parameters are required.
 
@@ -23,4 +23,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                           [2.1 17/11/2022]
+Hexagonix                           [2.2 12/01/2023]

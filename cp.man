@@ -7,7 +7,7 @@ privileges.
 
 USAGE:
 
-cp <source file name> <destination file name>
+cp <source filename> <destination filename>
 
 For more information, enter 'cp ?' or 'cp --help'.
 
@@ -23,4 +23,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                           [2.0 05/06/2022]
+Hexagonix                           [2.1 12/01/2023]

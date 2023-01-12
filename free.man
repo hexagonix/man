@@ -1,6 +1,7 @@
 Unix utility 'free'
 
-The 'free' Unix utility is responsible for displaying installed, reserved and in use of the system.
+The 'free' Unix utility is responsible for displaying installed, reserved and in use memory of the
+system.
 
 USAGE:
 
@@ -22,4 +23,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                           [2.0 05/06/2022]
+Hexagonix                           [2.1 12/01/2023]

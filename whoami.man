@@ -2,7 +2,6 @@ Unix utility 'whaomi'
 
 The Unix utility 'whoami' is responsible for displaying information about the current user of the
 system who logged in.
-For this purpose, the utility can receive parameters, in order to display specific information.
 
 USAGE:
 
@@ -29,4 +28,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                               [2.1 12/01/2023]

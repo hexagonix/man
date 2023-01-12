@@ -7,7 +7,7 @@ Files are sorted by type.
 
 USAGE:
 
-ls <parameter> <file name>
+ls <parameter> <filename>
 
 An additional parameter can be provided, namely:
 
@@ -30,4 +30,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                               [2.1 12/01/2023]

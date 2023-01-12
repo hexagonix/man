@@ -6,8 +6,8 @@ for users adapted with such interface. This shell features only essential built-
 carrying out its activities, delegating all other functions to the utilities that constitute the
 Unix environment of Hexagonix(R).
 Other users can also make use of the Unix sh shell. To make this shell the default, modify (just
-in case you know what you're doing) the configuration file for users of the Unix environment 
-"/usuario.unx", present in the root of the system volume.
+in case you know what you're doing) the users database "/passwd", present in the root of the system
+volume.
 
 USAGE:
 
@@ -29,4 +29,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.1 17/11/2022]
+Hexagonix                               [2.2 12/01/2023]
