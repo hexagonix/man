@@ -1,28 +1,28 @@
-Formato executavel do Hexagon(R)
+Hexagon(R) executable format (HAPP)
 
-Um utilitario HAPP deve apresentar uma serie de informacoes em um cabecalho HAPP que deve estar
-posicionado no inicio da imagem executavel. Essas informacoes sao lidas pelo carregador do
-Hexagon(R) e executadas. Caso algum campo esteja ausente ou esteja incorreto, o carregamento e
-interrompido. Abaixo, em linguagem Assembly x86 em sintaxe Intel, uma representacao do cabecalho:
+A Hexagon compatible utility must present a series of information in a HAPP header which must be
+positioned at the beginning of the executable image. This information is read by the kernel loader.
+If any field is missing or incorrect, loading is interrupted. Below, in x86 Assembly language in
+Intel syntax, is a representation of the header:
 
-cabecalhoAPP:
+imageHeader:
 
-.assinatura:      db "HAPP"    ;; Assinatura (numero magico)
-.arquitetura:     db 01h       ;; Arquitetura (i386 = 01h)
-.versaoMinima:    db 1         ;; Versao minima do Hexagon(R) necessaria para a execucao
-.subversaoMinima: db 00        ;; Subversao minima do Hexagon(R) necessaria para a execucao
-.pontoEntrada:    dd inicioAPP ;; Offset do ponto de entrada da image (main)
-.tipoImagem:      db 01h       ;; Imagem executavel (tipo de imagem; executavel = 01h)
-.reservado0:      dd 0         ;; Reservado (Dword)
-.reservado1:      db 0         ;; Reservado (Byte)
-.reservado2:      db 0         ;; Reservado (Byte)
-.reservado3:      db 0         ;; Reservado (Byte)
-.reservado4:      dd 0         ;; Reservado (Dword)
-.reservado5:      dd 0         ;; Reservado (Dword)
-.reservado6:      dd 0         ;; Reservado (Dword)
-.reservado7:      db 0         ;; Reservado (Byte)
-.reservado8:      dw 0         ;; Reservado (Word)
-.reservado9:      dw 0         ;; Reservado (Word)
-.reservado10:     dw 0         ;; Reservado (Word)
+.signature:          db "HAPP"     ;; Magic number
+.architecture:       db 01h        ;; Target architecture (i386 = 01h)
+.minimalVersion:     db 1          ;; Minimum version of Hexagon(R) required to run
+.minimalSubversion:  db 00         ;; Minimal subversion of Hexagon(R) required for execution
+.entryPoint:         dd entryPoint ;; Image entry point (offset- main)
+.imageType:          db 01h        ;; Executable type (image type; executable = 01h)
+.reserved0:          dd 0          ;; Reserved (Dword)
+.reserved1:          db 0          ;; Reserved (Byte)
+.reserved2:          db 0          ;; Reserved (Byte)
+.reserved3:          db 0          ;; Reserved (Byte)
+.reserved4:          dd 0          ;; Reserved (Dword)
+.reserved5:          dd 0          ;; Reserved (Dword)
+.reserved6:          dd 0          ;; Reserved (Dword)
+.reserved7:          db 0          ;; Reserved (Byte)
+.reserved8:          dw 0          ;; Reserved (Word)
+.reserved9:          dw 0          ;; Reserved (Word)
+.reserved10:         dw 0          ;; Reserved (Word)
 
-Hexagonix                               [1.0 02/07/2022]
+Hexagonix                               [2.0 27/03/2023]
