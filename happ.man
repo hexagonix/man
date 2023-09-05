@@ -9,8 +9,8 @@ imageHeader:
 
 .signature:          db "HAPP"     ;; Magic number
 .architecture:       db 01h        ;; Target architecture (i386 = 01h)
-.minimalVersion:     db 1          ;; Minimum version of Hexagon(R) required to run
-.minimalSubversion:  db 00         ;; Minimal subversion of Hexagon(R) required for execution
+.minimalVersion:     db 1          ;; Minimum version of Hexagon required to run
+.minimalSubversion:  db 00         ;; Minimal subversion of Hexagon required for execution
 .entryPoint:         dd entryPoint ;; Image entry point (offset- main)
 .imageType:          db 01h        ;; Executable type (image type; executable = 01h)
 .reserved0:          dd 0          ;; Reserved (Dword)
@@ -25,4 +25,4 @@ imageHeader:
 .reserved9:          dw 0          ;; Reserved (Word)
 .reserved10:         dw 0          ;; Reserved (Word)
 
-Hexagonix                               [2.0 27/03/2023]
+Hexagonix                               [2.1 05/09/2023]

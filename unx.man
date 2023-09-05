@@ -21,10 +21,10 @@ subversion, build code, software state, release name, etc. Comments must be afte
 
 More of the system at:
 
-(1) 'man system': more about the Hexagonix(R).
+(1) 'man system': more about the Hexagonix.
 
 LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [3.0 10/01/2023]
+Hexagonix                               [3.1 05/09/2023]

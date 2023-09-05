@@ -2,7 +2,7 @@ Unix utility 'lshapp'
 
 The Unix utility 'lshapp' is responsible for displaying information about an executable image on
 disk. Information is retrieved from the image and displayed, such as architecture image
-destination, the minimum version of Hexagon(R) required to run, and entry point of the executable
+destination, the minimum version of Hexagon required to run, and entry point of the executable
 code contained in the image, as well as the executable HAPP image type.
 
 USAGE:
@@ -25,4 +25,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.1 12/01/2023]
+Hexagonix                               [2.2 05/09/2023]

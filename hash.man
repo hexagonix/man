@@ -1,7 +1,7 @@
 Unix utility 'hash'
 
 The Unix utility 'hash' is closer to a Unix-like shell. He doesn't care about extension of files,
-but for those that have some extension, it must be provided. 'hash' will be the new Hexagonix(R)
+but for those that have some extension, it must be provided. 'hash' will be the new Hexagonix
 shell, receiving new functions from according to the evolution of the system.
 
 USAGE:
@@ -24,4 +24,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                           [2.0 05/06/2022]
+Hexagonix                           [2.1 05/09/2023]

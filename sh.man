@@ -1,10 +1,10 @@
 Unix utility 'sh'
 
-The Unix sh shell is the default shell for the root user. Unlike the new Hexagonix(R) shell, ASH,
+The Unix sh shell is the default shell for the root user. Unlike the new Andromeda SHell, ASH,
 the Unix shell 'sh' is closer to a familiar Unix environment, making it easier and more comfortable
 for users adapted with such interface. This shell features only essential built-in commands for the
 carrying out its activities, delegating all other functions to the utilities that constitute the
-Unix environment of Hexagonix(R).
+Unix environment of Hexagonix.
 Other users can also make use of the Unix sh shell. To make this shell the default, modify (just
 in case you know what you're doing) the users database "/passwd", present in the root of the system
 volume.
@@ -29,4 +29,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.2 12/01/2023]
+Hexagonix                               [2.3 05/09/2023]

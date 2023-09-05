@@ -1,4 +1,4 @@
-Hexagonix(R) Operating System
+Hexagonix Operating System
 
 Components distributed together and designated as "Hexagonix Operating System" are licensed under a
 BSD-3-Clause license. This licensing is valid only for the packages of software distributed in a
@@ -19,4 +19,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                           [1.0 04/12/2022]
+Hexagonix                           [1.1 05/09/2023]

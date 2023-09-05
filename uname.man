@@ -1,7 +1,7 @@
 Unix utility 'uname'
 
-The Unix utility 'uname' is responsible for displaying system information, displaying Hexagon(R)
-and Hexagonix(R) kernel information.
+The Unix utility 'uname' is responsible for displaying system information, displaying Hexagon
+kernel information.
 For this purpose, the utility can receive parameters, in order to display specific information
 for the user. These parameters are:
 
@@ -31,4 +31,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.2 16/04/2023]
+Hexagonix                               [2.3 05/09/2023]

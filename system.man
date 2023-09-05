@@ -1,6 +1,6 @@
-Hexagonix(R) Operating System
+Hexagonix Operating System
 
-The Hexagonix(R) Operating System is made up of a series of components that together make your
+The Hexagonix Operating System is made up of a series of components that together make your
 computer work. These components are divided into low-level and high-level components. The low-level
 components are the Hexagon Boot (HBoot) boot loader and its modules and the kernel Hexagon,
 responsible for initializing, controlling and making available to the user all devices connected to
@@ -17,10 +17,10 @@ The default shell is 'sh', but it can also be 'ash', 'hash' or any other configu
 
 More of the system at:
 
-(1) 'man unx': Hexagonix(R) Unix environment configuration files.
+(1) 'man unx': Hexagonix Unix environment configuration files.
 
 LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [3.0 10/01/2023]
+Hexagonix                               [3.1 05/09/2023]

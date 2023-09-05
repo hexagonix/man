@@ -2,7 +2,7 @@ Unix 'mount' utility
 
 The Unix utility 'mount' is responsible for mounting a block device to the root of the Virtual File
 System. This utility can be used to change between different volumes formatted with a file system
-recognized and supported by Hexagon(R).
+recognized and supported by Hexagon.
 Remembering that root user privileges (root) can be requested to carry out any mount. In the future,
 other mount points on directories will be supported by the system.
 
@@ -33,4 +33,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.0 05/06/2022]
+Hexagonix                               [2.1 05/09/2023]

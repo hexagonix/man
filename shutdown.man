@@ -10,8 +10,8 @@ shutdown <shutdown option>
 
 An additional parameter is required, namely:
 
- -d: Prepares to shutdown the computer.
- -r: Prepares to restart the computer.
+ -d: Power the computer off.
+ -r: Reboot the computer.
  now: Same as -d parameter (compatible with FreeBSD and Linux).
 
 Remember that after the entry of the parameter, the action starts immediately.
@@ -31,4 +31,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.2 27/03/2023]
+Hexagonix                               [2.3 05/09/2023]

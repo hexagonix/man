@@ -2,7 +2,7 @@ Unix utility 'hostname'
 
 The Unix utility 'hostname' is responsible for displaying the hostname of the device, and does not
 accept arguments. Hostname can be changed when deleting and creating a new file 'host.unx' at the
-root of the Hexagon(R) volume.
+root of the Hexagon volume.
 
 USAGE:
 
@@ -24,4 +24,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                           [2.0 05/06/2022]
+Hexagonix                           [2.1 05/09/2023]
