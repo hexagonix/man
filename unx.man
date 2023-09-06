@@ -14,7 +14,7 @@ after the # character.
 'login' and 'su' utilities, as well as others that use login routines for authentication. It is
 recommended that any comments should be after the # character.
 - HOST.UNX: file that contains the hostname of the machine. This file can be changed freely by
-users. To do this, just remove the original file and create a new one with the same name, 
+users. To do this, just remove the original file and create a new one with the same name,
 containing only a name ending with a blank space. Comments cannot be added.
 - HEXGNIX.UNX: This file exposes the user to relevant system information, such as version,
 subversion, build code, software state, release name, etc. Comments must be after the # character.

@@ -5,7 +5,7 @@ computer work. These components are divided into low-level and high-level compon
 components are the Hexagon Boot (HBoot) boot loader and its modules and the kernel Hexagon,
 responsible for initializing, controlling and making available to the user all devices connected to
 the computer. Hexagon manages the processor and memory, as well provides a foundation on which
-applications and utilities will run. The Hexagon also receives and processes requests from 
+applications and utilities will run. The Hexagon also receives and processes requests from
 utilities and applications, such as opening files or devices, input and output requests, disk and
 memory operations, as well as on other devices. High-level components start with loading of the
 first process in the user environment, usually the image contained in 'init'. Init reads startup

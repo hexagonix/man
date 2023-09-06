@@ -12,7 +12,7 @@ ls <parameter> <filename>
 An additional parameter can be provided, namely:
 
  -a: Display hidden files available on the current volume, when available and allowed.
-     Notice! Some system files may not be displayed in the list even when the parameter is 
+     Notice! Some system files may not be displayed in the list even when the parameter is
      provided. Included are files that, if edited, may prevent the system functioning.
  <filename>: Requests to search for a specific file.
 

@@ -2,8 +2,8 @@ Unix utility 'file'
 
 The Unix utility 'file' is responsible for displaying information about a given file as parameter.
 The utility can identify the file's contents by its extension or even reading some of its content,
-such as headers from HAPP binary images or HBoot modules, as well as other files. The utility 
-initially checks the identity by looking for a series of headers inside the file. If no known 
+such as headers from HAPP binary images or HBoot modules, as well as other files. The utility
+initially checks the identity by looking for a series of headers inside the file. If no known
 signature is found, it infers the type of file by extension. The file content is not analyzed at
 all, just the first few bytes that may contain a file signature.
 

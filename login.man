@@ -1,6 +1,6 @@
 Unix utility 'login'
 
-The Unix utility 'login' is responsible for authenticating and validating a user's access 
+The Unix utility 'login' is responsible for authenticating and validating a user's access
 previously registered, with the help of a record with the data of users and groups available for
 login.
 

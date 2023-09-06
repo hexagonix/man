@@ -1,9 +1,9 @@
 Daemon/service 'logind'
 
 logind is a service that is part of the Hexagonix login system as of version H1. It is responsible
-for obtaining, configuring and defining some parameters during the beginning of the session of a 
+for obtaining, configuring and defining some parameters during the beginning of the session of a
 user. This service is required by the Unix 'login' utility and must not be started in a direct way.
-In addition, it can read configuration parameters, such as the color of the theme to be used for 
+In addition, it can read configuration parameters, such as the color of the theme to be used for
 the session.
 There are two themes: light and dark. The default (dark) is selected automatically if a theme
 request is not found in "passwd".

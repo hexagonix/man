@@ -9,7 +9,7 @@ want a change to the default character. Otherwise, the message may not be displa
 
 Available entities:
 
-aguaviva andrmda apple astro atet atomo baleia bio bob bugs cactus cactus2 caveira celular 
+aguaviva andrmda apple astro atet atomo baleia bio bob bugs cactus cactus2 caveira celular
 cmarinho daemon dragao gato geek hexagon homer lingua mac maze mickey minnie mula mundo panico
 placa polvo r2-d2 robo tux unix windows yoda
 

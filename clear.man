@@ -1,8 +1,8 @@
 Unix utility 'clear'
 
 The Unix utility 'clear' is responsible for clearing the vd0 and vd1 consoles (ttys).
-In this way, it can be used to clean up the main console's video output, as well as from other 
-virtual consoles. Usually only the main console (vd0) and the first virtual console (vd1) are 
+In this way, it can be used to clean up the main console's video output, as well as from other
+virtual consoles. Usually only the main console (vd0) and the first virtual console (vd1) are
 affected by this utility.
 
 USAGE:
