@@ -7,7 +7,7 @@ for the user. These parameters are:
 
  -a: Display all possible system, kernel, and machine information.
  -s: Name of the running kernel.
- -n: Display the hostname of the machine running the systeLaunchm.
+ -n: Display the hostname of the machine running the system.
  -r: Release of the running kernel.
  -v: Running kernel version.
  -m: Machine type.
@@ -31,4 +31,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.3 05/09/2023]
+Hexagonix                               [2.4 07/10/2023]
