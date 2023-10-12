@@ -1,0 +1,23 @@
+Unix utility 'mv'
+
+The Unix utility 'mv' is responsible for renaming a file present on the current volume.
+
+USAGE:
+
+mv <file1> <file2>
+
+For more information, enter 'mv ?' or 'mv --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix Project Raava (2023).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                           [1.0 12/10/2023]
