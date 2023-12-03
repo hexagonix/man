@@ -21,7 +21,7 @@ For more information, enter 'uname ?' or 'uname --help'.
 
 HISTORY
 
-This command appeared in the Hexagonix H1 (2016-2021).
+This command appeared in the Hexagonix H1 or in previous development versions (2015-2021).
 
 AUTHOR
 
@@ -31,4 +31,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.4 07/10/2023]
+Hexagonix                               [2.5 03/12/2023]

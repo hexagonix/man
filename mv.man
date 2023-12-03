@@ -10,7 +10,7 @@ For more information, enter 'mv ?' or 'mv --help'.
 
 HISTORY
 
-This command appeared in the Hexagonix Project Raava (2023).
+This command appeared in the Hexagonix System I (2023).
 
 AUTHOR
 
@@ -20,4 +20,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                           [1.0 12/10/2023]
+Hexagonix                           [1.1 03/12/2023]
