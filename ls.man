@@ -1,7 +1,7 @@
 Unix utility 'ls'
 
 The Unix utility 'ls' is responsible for displaying, in a sorted list, the files present in the
-root directory of a mounted disk.
+root directory of a mounted volume.
 
 Files are sorted by type.
 
@@ -30,4 +30,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.2 03/12/2023]
+Hexagonix                               [2.3 05/03/2024]
