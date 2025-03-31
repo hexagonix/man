@@ -9,9 +9,9 @@ ps <parameter>
 
 An additional parameter can be provided, namely:
 
- -t: Displays all possible process and system resource information.
- -v: Display only the memory usage of running processes.
- -o: Displays the number of processes in the execution queue.
+ -a - Display user processes running on device.
+ -m - Display all memory usage (user+kernel).
+ -o - Displays the number of processes currently running.
 
 For more information, enter 'ps ?' or 'ps --help'.
 
@@ -27,4 +27,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.1 03/12/2023]
+Hexagonix                               [3.0 30/03/2025]
