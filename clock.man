@@ -1,0 +1,32 @@
+Unix utility 'clock'
+
+The Unix utility 'clock' displays the current time in the top right corner of the console,
+updating it once every second.
+
+This utility never finishes on its own. If it was started directly, without running in the
+background, it can be terminated with the F1 key. It can also be started in the background using
+the sh, hash or ash shells, appending an ampersand character to the command, for example
+'clock &', and later terminated with the 'kill' utility, informing the process identification
+number shown when it was started (or using the PID shown in 'ps' or 'top' utilities).
+
+USAGE:
+
+clock
+
+No additional parameters are required.
+
+For more information, enter 'clock ?' or 'clock --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix Dormin development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                           [1.0 30/07/2026]

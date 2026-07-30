@@ -13,6 +13,11 @@ An additional parameter can be provided, namely:
  -m - Display all memory usage (user+kernel).
  -o - Displays the number of processes currently running.
 
+Processes started in the background with an ampersand character, for example 'clock &', are also
+listed here, showing their process identification number, name, current state and the process
+that started them. The identification number can then be used with the 'kill' utility to
+terminate the process.
+
 For more information, enter 'ps ?' or 'ps --help'.
 
 HISTORY
@@ -27,4 +32,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [3.0 30/03/2025]
+Hexagonix                               [3.1 30/07/2026]

@@ -1,0 +1,33 @@
+Unix utility 'kill'
+
+The Unix utility 'kill' terminates the process identified by the process identification number
+given as its only parameter. The identification number of a process can be obtained using the
+'ps' or 'top' utilities, or is shown by the shell right after starting a process in the
+background with an ampersand character, for example 'clock &'.
+
+If the informed identification number does not match any process currently running on the
+system, a message is shown and nothing else happens. Terminating a process this way frees its
+memory immediately.
+
+USAGE:
+
+kill <pid>
+
+The <pid> parameter is required and must be the identification number of a process currently
+running on the system.
+
+For more information, enter 'kill ?' or 'kill --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix Dormin development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                           [1.0 30/07/2026]

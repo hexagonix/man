@@ -1,8 +1,13 @@
 Unix utility 'hash'
 
-The Unix utility 'hash' is closer to a Unix-like shell. He doesn't care about extension of files,
+The Unix utility 'hash' is closer to a Unix like shell. He doesn't care about extension of files,
 but for those that have some extension, it must be provided. 'hash' will be the new Hexagonix
 shell, receiving new functions from according to the evolution of the system.
+
+A command can be started in the background instead of blocking the shell until it finishes. To do
+this, add an ampersand character at the end of the command line, for example 'clock &'. The shell
+shows the process identification number of the new process right away, which can later be used
+with the 'kill' utility to terminate it.
 
 USAGE:
 
@@ -24,4 +29,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                           [2.2 03/12/2023]
+Hexagonix                           [2.3 30/07/2026]

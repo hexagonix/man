@@ -9,6 +9,11 @@ Other users can also make use of the Unix sh shell. To make this shell the defau
 in case you know what you're doing) the users database "/passwd", present in the root of the system
 volume.
 
+A command can be started in the background instead of blocking the shell until it finishes. To do
+this, add an ampersand character at the end of the command line, for example 'clock &'. The shell
+shows the process identification number of the new process right away, which can later be used
+with the 'kill' utility to terminate it.
+
 USAGE:
 
 sh
@@ -29,4 +34,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.4 03/12/2023]
+Hexagonix                               [2.5 30/07/2026]

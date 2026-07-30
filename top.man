@@ -4,6 +4,11 @@ The Unix utility 'top' is responsible for displaying the processes running on th
 the name of the disk images. The utility also displays memory information, telling to the user the
 amount of memory in use by user processes and also the total memory installed on the computer.
 
+Processes started in the background with an ampersand character, for example 'clock &', are also
+listed here, showing their process identification number, name, current state and the process
+that started them. The identification number can then be used with the 'kill' utility to
+terminate the process.
+
 USAGE:
 
 top
@@ -26,4 +31,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.2 03/12/2023]
+Hexagonix                               [2.3 30/07/2026]
