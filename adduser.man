@@ -1,0 +1,34 @@
+Unix utility 'adduser'
+
+The Unix utility 'adduser' interactively creates a new Hexagonix user account. It prompts
+for a username, a password (entered twice, to confirm both match), a login shell and a
+color theme, then stores the account as a new entry in the user database, alongside a
+hash of the password, never the password itself. Only an administrative (root) user can
+run it.
+
+Leaving the shell or theme prompt blank falls back to a default (sh for the shell, dark
+for the theme). Leaving the username blank, or entering one that already exists, or
+typing two different passwords, aborts the operation with an explanatory message instead
+of creating the account.
+
+USAGE:
+
+adduser
+
+No additional parameters are required.
+
+For more information, enter 'adduser ?' or 'adduser --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix Dormin development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                           [1.0 01/08/2026]

@@ -6,7 +6,7 @@ for users adapted with such interface. This shell features only essential built-
 carrying out its activities, delegating all other functions to the utilities that constitute the
 Unix environment of Hexagonix.
 Other users can also make use of the Unix sh shell. To make this shell the default, modify (just
-in case you know what you're doing) the users database "/passwd", present in the root of the system
+in case you know what you're doing) the users database "/shadow", present in the root of the system
 volume.
 
 A command can be started in the background instead of blocking the shell until it finishes. To do

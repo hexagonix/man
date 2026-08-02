@@ -1,0 +1,30 @@
+Unix utility 'passwd'
+
+The Unix utility 'passwd' changes a user's password in the user database. Run without
+arguments, it changes the password of the currently logged in user, and asks for that
+user's current password before accepting a new one. Given a username, only the root user
+may run it, and it can set that user's password directly, without knowing their current
+one.
+
+Either way, the new password is entered twice, to confirm both attempts match, and only
+its hash is ever stored.
+
+USAGE:
+
+passwd [user]
+
+For more information, enter 'passwd ?' or 'passwd --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix Dormin development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                           [1.0 01/08/2026]
