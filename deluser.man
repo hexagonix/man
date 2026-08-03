@@ -1,0 +1,25 @@
+Unix utility 'deluser'
+
+The Unix utility 'deluser' removes a user account from the user database. Only an
+administrative (root) user can run it, and it always asks for confirmation (y/n) before
+actually removing the account. The root account itself can never be removed this way.
+
+USAGE:
+
+deluser <user>
+
+For more information, enter 'deluser ?' or 'deluser --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix Dormin development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                           [1.0 01/08/2026]
