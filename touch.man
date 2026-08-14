@@ -1,0 +1,28 @@
+Unix utility 'touch'
+
+The Unix utility 'touch' creates a new, empty file at a given path, absolute or relative
+to the current directory, on the mounted disk. Only an administrative (root) user can
+run it. The file is not created if it already exists, its path is invalid, or its name
+is longer than 12 characters.
+
+USAGE:
+
+touch <path>
+
+No additional parameters are required.
+
+For more information, enter 'touch ?' or 'touch --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix Mineru development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                               [1.0 13/08/2026]
