@@ -1,0 +1,35 @@
+Unix utility 'umount'
+
+The Unix utility 'umount' unmounts a volume mounted earlier by 'mount', given the directory
+it was mounted at. Only the root user can perform unmounts, and the root volume (/) is never
+unmounted, since the whole file system hierarchy hangs from it.
+
+With the -a parameter, every volume currently mounted is unmounted, in the reverse of the
+order 'mount -a' mounted them in, so a volume mounted on top of another leaves first.
+
+USAGE:
+
+umount <mount point>
+umount -a
+
+Example of use:
+
+umount /mnt
+
+It unmounts whatever volume is mounted at /mnt.
+
+For more information, enter 'umount ?' or 'umount --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix Mineru development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                               [1.0 12/10/2026]

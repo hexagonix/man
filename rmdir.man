@@ -1,0 +1,32 @@
+Unix utility 'rmdir'
+
+The Unix utility 'rmdir' removes an empty directory at a given path, absolute or relative to
+the current directory, on the mounted volume. A directory still holding entries other than
+'.' and '..' is not removed, and neither is one protected by 'protect' when the user asking
+is not root.
+
+USAGE:
+
+rmdir <path>
+
+Example of use:
+
+rmdir /usr/local
+
+It removes the directory local from /usr, if nothing is left inside it.
+
+For more information, enter 'rmdir ?' or 'rmdir --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix Mineru development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                               [1.0 12/10/2026]

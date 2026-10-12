@@ -1,0 +1,43 @@
+Unix utility 'protect'
+
+The Unix utility 'protect' marks a path as protected, so that only the root user can remove,
+rename or write to it. Protection is recorded on the volume itself, through the SYSTEM
+attribute of FAT16B, and survives a reboot. Only the root user can run this utility.
+
+With the -u parameter, the protection is removed from the given path instead. With -s, the
+path is also marked setuid, which grants root to whoever runs it, no matter which user
+started it. This is what allows 'su' and 'sudo' to do their work from a common user session.
+
+With the -a parameter, every path listed in /etc/protect is protected in one pass. That file
+holds one path per line, and a path may be followed by a space and the word setuid to also
+receive the treatment -s gives. Blank lines and lines starting with # are ignored. This is
+how the system protects itself at boot, from a line in /etc/rc.
+
+USAGE:
+
+protect <path>
+protect -u <path>
+protect -s <path>
+protect -a
+
+Example of use:
+
+protect -s /sbin/su
+
+It protects /sbin/su and marks it setuid, so a common user running it gets root.
+
+For more information, enter 'protect ?' or 'protect --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix Mineru development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                               [1.0 12/10/2026]

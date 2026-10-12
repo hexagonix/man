@@ -1,0 +1,35 @@
+Unix utility 'dmesg'
+
+The Unix utility 'dmesg' displays the message history the Hexagon kernel has kept since
+boot. The log is read straight from the kernel, through its own diagnostic interface, and
+holds what the kernel itself recorded: device detection, mounts and unmounts, errors and
+any other message a component chose to register.
+
+The output is shown one screen at a time. When a screen fills, a '-- More --' prompt waits
+at the bottom row: any key shows the next screen, and 'q' leaves the listing. The number of
+lines per screen comes from the console in use, so a change of resolution is accounted for.
+
+Messages sent by utilities through 'syslogd' are not part of this listing, which carries
+only what the kernel wrote.
+
+USAGE:
+
+dmesg
+
+No additional parameters are required.
+
+For more information, enter 'dmesg ?' or 'dmesg --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix Mineru development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                               [1.0 12/10/2026]

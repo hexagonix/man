@@ -1,0 +1,38 @@
+Unix utility 'vt'
+
+The Unix utility 'vt' switches the physical display to one of the eight virtual terminals
+Hexagon provides, numbered 0 to 7. Each virtual terminal keeps its own content, cursor and
+colors, so the processes running on one go on running while another is shown.
+
+A virtual terminal never switched to before starts blank. Switching back to one already in
+use restores whatever was left on it. The same switch can be made at any moment from the
+keyboard, with Ctrl and the function key matching the index, so Ctrl+F1 reaches terminal 0.
+
+The process that calls this utility is not moved to the terminal being shown. It keeps
+writing to the terminal it was already attached to, which 'vt' does not change.
+
+USAGE:
+
+vt <index>
+
+Example of use:
+
+vt 2
+
+It brings virtual terminal 2 to the display.
+
+For more information, enter 'vt ?' or 'vt --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix Mineru development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                               [1.0 12/10/2026]

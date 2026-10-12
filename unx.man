@@ -1,23 +1,33 @@
 Unix environment configuration files
 
 The Unix environment of Hexagonix(1) presents a series of configuration or data files, which can
-be easily located on disk by the .unx extension, indicating their nature. Those files serve as a
-database for utilities in the Unix environment, as well can be used to configure the general
-behavior of the system. These files can also be used to expose relevant system information to
-users, such as version, edition, status, etc. Some files are important for the functioning of the
-system, such as:
+be kept together in the /etc directory. Those files serve as a database for utilities in
+the Unix environment, as well can be used to configure the general behavior of the system.
+These files can also be used to expose relevant system information to users, such as
+version, edition, status, etc. Some files are important for the functioning of the system,
+such as:
 
-- RC: 'init' configuration file. Used to describe the services that must be initialized on every
+- rc: 'init' configuration file. Used to describe the services that must be initialized on every
 system boot. Normally, it should not be changed. It is recommended that any comments should be
 after the # character.
-- PASSWD: contains the database of users and their related data. This file can be used by the
-'login' and 'su' utilities, as well as others that use login routines for authentication. It is
-recommended that any comments should be after the # character.
-- HOST.UNX: file that contains the hostname of the machine. This file can be changed freely by
+- shadow: contains the database of users and their related data. This file can be used by the
+'login', 'sudo' and 'su' utilities, as well as others that use login routines for
+authentication. It is recommended that any comments should be after the # character.
+- host: file that contains the hostname of the machine. This file can be changed freely by
 users. To do this, just remove the original file and create a new one with the same name,
 containing only a name ending with a blank space. Comments cannot be added.
-- HEXGNIX.UNX: This file exposes the user to relevant system information, such as version,
-subversion, build code, software state, release name, etc. Comments must be after the # character.
+- fstab: mount table read by 'mount -a' at boot. Each line names a device, the directory it
+is mounted at, the file system and its options, in that order. It is recommended that any
+comments should be after the # character.
+- sudoers: list of the users authorized to run 'sudo', one numeric user id per line. A user
+absent from it cannot run anything through 'sudo'. It is recommended that any comments should
+be after the # character.
+- protect: list of the paths 'protect -a' marks as protected at boot, one per line. A path may
+be followed by the word setuid to also be marked setuid. It is recommended that any comments
+should be after the # character.
+- hexgnix.cfg: This file exposes the user to relevant system information, such as version,
+update package, build code, release name, etc. It carries one key=value pair per line, and
+comments must be after the # character.
 
 More of the system at:
 
@@ -27,4 +37,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [3.1 05/09/2023]
+Hexagonix                               [4.0 07/09/2026]
