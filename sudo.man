@@ -1,0 +1,39 @@
+Unix utility 'sudo'
+
+The Unix utility 'sudo' runs a single command as the root user, without opening a session
+as root the way 'su' does. The command and whatever arguments follow it are passed through
+untouched, and the identity goes back to the original user as soon as the command ends.
+
+Authorization comes from /etc/sudoers, which holds one numeric user id per line. Blank lines
+and lines starting with # are ignored. The id checked is that of the real user who ran
+'sudo', not the one it runs the command under, so marking the utility setuid does not let
+anyone past the list. A missing or empty /etc/sudoers authorizes nobody.
+
+For this to work at all, /sbin/sudo itself has to be marked setuid, which the 'protect'
+utility does at boot from the list in /etc/protect.
+
+USAGE:
+
+sudo <command> [arguments]
+
+Example of use:
+
+sudo mount hd1p0 /mnt
+
+It mounts the volume as root, from a session of a common user listed in /etc/sudoers.
+
+For more information, enter 'sudo ?' or 'sudo --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix Mineru development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                               [1.0 12/10/2026]

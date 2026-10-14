@@ -1,0 +1,35 @@
+Unix utility 'mkdir'
+
+The Unix utility 'mkdir' creates a new, empty directory at a given path, absolute or
+relative to the current directory, on the mounted volume. The new directory comes with its
+own '.' and '..' entries already in place.
+
+Every directory in the path given has to exist beforehand, since the utility creates only
+the last name in it. A directory created by the root user comes out protected, in the same
+way the 'protect' utility marks a path, so that only root can later remove or rename it.
+
+USAGE:
+
+mkdir <path>
+
+Example of use:
+
+mkdir /usr/local
+
+It creates the directory local inside /usr, which has to exist already.
+
+For more information, enter 'mkdir ?' or 'mkdir --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix Mineru development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                               [1.0 12/10/2026]

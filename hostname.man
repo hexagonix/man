@@ -1,8 +1,8 @@
 Unix utility 'hostname'
 
 The Unix utility 'hostname' is responsible for displaying the hostname of the device, and does not
-accept arguments. Hostname can be changed when deleting and creating a new file 'host.unx' at the
-root of the Hexagon volume.
+accept arguments. Hostname can be changed when deleting and creating a new file 'host' in the
+/etc directory of the Hexagon volume.
 
 USAGE:
 

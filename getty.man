@@ -1,0 +1,36 @@
+Daemon/service 'getty'
+
+getty is the service that opens a session on a virtual terminal. It claims the terminal
+whose index is given as its only parameter, between 0 and 7, and runs the 'login' utility
+on it, starting it again whenever it exits, so a terminal left by a user comes back with a
+login prompt on it.
+
+One instance runs for each terminal that should accept logins, started from the respawn=
+lines of /etc/rc, and it is not meant to be run by hand. A terminal with no getty on it
+stays usable by whatever process writes to it, but shows no login prompt.
+
+USAGE:
+
+getty <vt>
+
+Example of use:
+
+getty 1
+
+It claims virtual terminal 1 and runs 'login' on it.
+
+For more information, enter 'getty ?' or 'getty --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix Mineru development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                               [1.0 12/10/2026]

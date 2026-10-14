@@ -1,0 +1,34 @@
+Unix utility 'syslogd'
+
+The Unix utility 'syslogd' sends a message to the system log, from a utility or from a
+script, so that components outside the kernel can record what they did. The message is given
+as the parameter and goes to the log with the identification of the process that sent it.
+
+Messages sent this way are kept apart from the ones the kernel itself records, which are the
+ones the 'dmesg' utility lists.
+
+USAGE:
+
+syslogd <message>
+
+Example of use:
+
+syslogd Volume check finished
+
+It records that line in the system log.
+
+For more information, enter 'syslogd ?' or 'syslogd --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix H2 or in previous development versions (2022).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                               [1.0 12/10/2026]
