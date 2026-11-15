@@ -1,0 +1,39 @@
+Unix utility 'script'
+
+The Unix utility 'script' starts a shell on a pseudoterminal and records everything the
+shell shows into a file, as the script of BSD does. The session looks and behaves as it would
+on the terminal 'script' was called from, and ends when the shell exits.
+
+The file holds the bytes exactly as the shell wrote them, escape sequences included, so
+showing it on a terminal replays the session. It is written once the session ends, replacing
+a file of the same name. If no file is given, the session is recorded into 'script.out'.
+
+Inside the session, the keys go to the shell as they are typed, and Ctrl+C ends the command
+the shell is running, not the shell. The shell sees a window of the same size as the
+terminal 'script' was called from.
+
+USAGE:
+
+script [file]
+
+Example of use:
+
+script session.txt
+
+It records a session into 'session.txt'. Leave it with 'exit'.
+
+For more information, enter 'script ?' or 'script --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix SonamCore development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                               [1.0 15/11/2026]
