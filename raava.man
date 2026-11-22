@@ -1,0 +1,46 @@
+Unix utility 'raava'
+
+The Unix utility 'raava' shows shells in windows. It takes a virtual terminal of its own,
+the first one from tty2 to tty7 with no process on it, so the clock and the logins stay where
+they are, and goes back to the one it was called from when it ends. Each window is a shell on
+a pseudoterminal, and what the shell draws stays in its window, in the size the window has.
+
+The windows overlap, the one in focus on top with its border in the colors of the theme
+swapped. Keys go to the window in focus, Ctrl+C included, which ends only what runs in it.
+Ctrl+A starts a command of 'raava', followed by one of these letters:
+
+c - Opens a window
+n - Brings the window at the bottom to the top, so repeating it goes through them all
+x - Closes the window in focus, and ends its shell
+q - Closes every window and leaves
+h, j, k, l - Move the window in focus left, down, up and right
+H, J, K, L - Make it narrower, taller, shorter and wider
+Ctrl+A - Sends Ctrl+A itself to the window
+
+With the mouse, a click brings a window to the top, dragging its title moves it and dragging
+its bottom right corner changes its size. A window whose shell exits closes by itself, and
+'raava' leaves once no window is left.
+
+A program already running in a window sees a new size only the next time it asks for it.
+Programs that draw on the console directly, instead of writing to their terminal, draw over
+the windows.
+
+USAGE:
+
+raava
+
+For more information, enter 'raava ?' or 'raava --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix SonamCore development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                               [1.0 23/11/2026]
