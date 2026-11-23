@@ -12,6 +12,7 @@ Ctrl+A starts a command of 'raava', followed by one of these letters:
 c - Opens a window
 n - Brings the window at the bottom to the top, so repeating it goes through them all
 x - Closes the window in focus, and ends its shell
+r - Draws the whole screen again
 q - Closes every window and leaves
 h, j, k, l - Move the window in focus left, down, up and right
 H, J, K, L - Make it narrower, taller, shorter and wider
@@ -22,8 +23,9 @@ its bottom right corner changes its size. A window whose shell exits closes by i
 'raava' leaves once no window is left.
 
 A program already running in a window sees a new size only the next time it asks for it.
-Programs that draw on the console directly, instead of writing to their terminal, draw over
-the windows.
+The virtual terminal of 'raava' is held for it alone, so a program in a window that draws on
+the console directly, instead of writing to its terminal, draws nothing there. What it writes
+to its terminal still shows in its window, and Ctrl+C ends it as any other.
 
 USAGE:
 
