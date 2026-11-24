@@ -18,8 +18,9 @@ h, j, k, l - Move the window in focus left, down, up and right
 H, J, K, L - Make it narrower, taller, shorter and wider
 Ctrl+A - Sends Ctrl+A itself to the window
 
-With the mouse, a click brings a window to the top, dragging its title moves it and dragging
-its bottom right corner changes its size. A window whose shell exits closes by itself, and
+The status bar shows the same commands as buttons, and a click on one runs it. With the
+mouse, a click brings a window to the top, dragging its title moves it, dragging its bottom
+right corner changes its size and a click on the [x] of its title closes it. A window whose shell exits closes by itself, and
 'raava' leaves once no window is left.
 
 A program already running in a window sees a new size only the next time it asks for it.
