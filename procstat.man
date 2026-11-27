@@ -1,0 +1,33 @@
+Unix utility 'procstat'
+
+The Unix utility 'procstat' displays the blocks of memory a process holds, given its process
+identification number, as shown by 'ps' or 'top'. For each block it shows its address in physical
+memory, its size in bytes and what it is for:
+
+ image                        - the code, data and stack of the program.
+ page tables and kernel stack - what the kernel keeps to map the process and to run on its behalf.
+ arguments                    - the arguments the process was started with.
+ environment                  - its environment variables.
+ heap                         - memory the process asked for while running.
+
+The total at the end is the same amount the MEMORY column of 'ps' shows for that process.
+
+USAGE:
+
+procstat <PID>
+
+For more information, enter 'procstat ?' or 'procstat --help'.
+
+HISTORY
+
+This command appeared in the Hexagonix PaviCore development branch (2026).
+
+AUTHOR
+
+Felipe Miguel Nery Lunkes
+
+LICENSE
+
+Licensed under BSD-3-Clause.
+
+Hexagonix                               [1.0 27/11/2026]
