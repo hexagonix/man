@@ -18,6 +18,10 @@ listed here, showing their process identification number, name, current state an
 that started them. The identification number can then be used with the 'kill' utility to
 terminate the process.
 
+The TIME column shows how long each process has had the processor since it started, in its own
+code and in the kernel together, as minutes, seconds and hundredths of a second (M:SS.hh). The
+time of the idle process is the time the processor had nothing to do.
+
 For more information, enter 'ps ?' or 'ps --help'.
 
 HISTORY
@@ -32,4 +36,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [3.1 30/07/2026]
+Hexagonix                               [3.2 27/11/2026]

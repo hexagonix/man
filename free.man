@@ -1,7 +1,12 @@
 Unix utility 'free'
 
 The 'free' Unix utility is responsible for displaying installed, reserved and in use memory of the
-system.
+system, in kilobytes:
+
+ total     - all the memory of the computer.
+ wired     - memory held by the kernel, which cannot be given to anyone else.
+ processes - memory held by running processes.
+ free      - memory not in use.
 
 USAGE:
 
@@ -23,4 +28,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                           [2.2 03/12/2023]
+Hexagonix                           [2.3 27/11/2026]

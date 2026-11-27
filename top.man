@@ -4,6 +4,13 @@ The Unix utility 'top' is responsible for displaying the processes running on th
 the name of the disk images. The utility also displays memory information, telling to the user the
 amount of memory in use by user processes and also the total memory installed on the computer.
 
+top reads the system twice, one second apart, and shows what changed between the two readings:
+
+ CPU - the share of the processor spent in the code of processes (user), in the kernel (system)
+       and with nothing to do (idle).
+ Mem - the memory held by the kernel (wired), by processes and free.
+ CPU column - the share of the processor each process had in that second.
+
 Processes started in the background with an ampersand character, for example 'clock &', are also
 listed here, showing their process identification number, name, current state and the process
 that started them. The identification number can then be used with the 'kill' utility to
@@ -31,4 +38,4 @@ LICENSE
 
 Licensed under BSD-3-Clause.
 
-Hexagonix                               [2.3 30/07/2026]
+Hexagonix                               [2.4 27/11/2026]
